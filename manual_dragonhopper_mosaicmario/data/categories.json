@@ -1,0 +1,28 @@
+{
+    "Full Stages": {
+        "hidden": true,
+        "yaml_option": ["!stagesanity"]
+    },
+    "Stagesanity": {
+        "hidden": true,
+        "yaml_option": ["stagesanity"]
+    },
+    "Transformation": {
+        "hidden": true
+    },
+    "Star Medal": {
+        "hidden": true
+    },
+    "Big Key": {
+        "hidden": true
+    },
+    "Small Key": {
+        "hidden": true
+    },
+    "Goal": {
+        "hidden": true
+    },
+    "Story": {
+        "hidden": true
+    }
+}

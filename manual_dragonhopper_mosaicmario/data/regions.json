@@ -1,0 +1,167 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json",
+  "Starting Region": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Stage 0-1": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 0-1| OR |Unlock Stage 0|"
+  },
+  "Stage 0-2": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 0-2| OR |Unlock Stage 0|"
+  },
+  "Stage 0-3": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 0-3| OR |Unlock Stage 0|"
+  },
+  "Stage 1-1": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 1-1| OR |Unlock Stage 1|"
+  },
+  "Stage 1-2": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 1-2| OR |Unlock Stage 1|"
+  },
+  "Stage 1-3": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 1-3| OR |Unlock Stage 1|"
+  },
+  "Stage 1-4": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 1-4| OR |Unlock Stage 1|"
+  },
+  "Stage 1-5": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 1-5| OR |Unlock Stage 1|"
+  },
+  "Stage 1-6": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 1-6| OR |Unlock Stage 1|"
+  },
+  "Stage 2-1": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 2-1| OR |Unlock Stage 2|"
+  },
+  "Stage 2-2": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 2-2| OR |Unlock Stage 2|"
+  },
+  "Stage 2-3": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 2-3| OR |Unlock Stage 2|"
+  },
+  "Stage 2-4": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 2-4| OR |Unlock Stage 2|"
+  },
+  "Stage 2-5": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 2-5| OR |Unlock Stage 2|"
+  },
+  "Stage 3-1": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 3-1| OR |Unlock Stage 3|"
+  },
+  "Stage 3-2": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 3-2| OR |Unlock Stage 3|"
+  },
+  "Stage 3-3": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 3-3| OR |Unlock Stage 3|"
+  },
+  "Stage 3-4": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 3-4| OR |Unlock Stage 3|"
+  },
+  "Stage 3-5": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 3-5| OR |Unlock Stage 3|"
+  },
+  "Stage 4-1": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 4-1| OR |Unlock Stage 4|"
+  },
+  "Stage 4-2": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 4-2| OR |Unlock Stage 4|"
+  },
+  "Stage 4-3": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 4-3| OR |Unlock Stage 4|"
+  },
+  "Stage 4-4": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 4-4| OR |Unlock Stage 4|"
+  },
+  "Stage 4-5": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 4-5| OR |Unlock Stage 4|"
+  },
+  "Stage 5-1": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 5-1| OR |Unlock Stage 5|"
+  },
+  "Stage 5-2": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 5-2| OR |Unlock Stage 5|"
+  },
+  "Stage 5-3": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 5-3| OR |Unlock Stage 5|"
+  },
+  "Stage 5-4": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 5-4| OR |Unlock Stage 5|"
+  },
+  "Stage 5-5": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 5-5| OR |Unlock Stage 5|"
+  },
+  "Stage 6-1": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 6-1| OR |Unlock Stage 6|"
+  },
+  "Stage 6-2": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 6-2| OR |Unlock Stage 6|"
+  },
+  "Stage 6-3": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 6-3| OR |Unlock Stage 6|"
+  },
+  "Stage 6-4": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 6-4| OR |Unlock Stage 6|"
+  },
+  "Stage 6-5": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 6-5| OR |Unlock Stage 6|"
+  },
+  "Stage 6-6": {
+    "connects_to": [],
+    "requires": "(|Unlock Stage 6-6| OR |Unlock Stage 6|) AND (({YamlCompare(lexer_fight_unlock = 0)} AND {OptionCount(Star Medal, star_medals_required)}) OR ({YamlCompare(lexer_fight_unlock = 1)} AND {OptionCount(@Boss Token, bosses_required)}) OR ({YamlCompare(lexer_fight_unlock = 2)} AND {OptionCount(@Spirit Token, spirits_required)}))"
+  },
+  "Stage 6-7": {
+    "connects_to": [],
+    "requires": "|Unlock Stage 6-7| OR |Unlock Stage 6|"
+  },
+  "Stage 6-8": {
+    "connects_to": [],
+    "requires": "(|Unlock Stage 6-8| OR |Unlock Stage 6|) AND |King| AND |Queen| AND |Star Crystal|"
+  },
+  "Bonus Stage Flap Flap": {
+    "connects_to": [],
+    "requires": "|Unlock Bonus Stage Flap Flap|"
+  },
+  "Bonus Stage Jump Jump": {
+    "connects_to": [],
+    "requires": "|Unlock Bonus Stage Jump Jump|"
+  },
+  "Trading Post": {
+    "connects_to": [],
+    "requires": "((|Unlock Stage 1-4| OR |Unlock Stage 1|) AND |Earth Dragon|) OR (|Unlock Stage 2-4| OR |Unlock Stage 2|) OR ((|Unlock Stage 3-4| OR |Unlock Stage 3|) AND |Fire Dragon|) OR ((|Unlock Stage 4-4| OR |Unlock Stage 4|) AND |Wind Dragon|) OR (|Unlock Stage 5-4| OR |Unlock Stage 5|) OR (|Unlock Stage 6-5| OR |Unlock Stage 6|)"
+  }
+}

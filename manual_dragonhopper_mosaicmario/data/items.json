@@ -1,0 +1,793 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+  "data": [
+    {
+      "count": "110",
+      "name": "Star Medal",
+      "category": [
+        "Star Medals"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Star Crystal",
+      "category": [
+        "Key Items"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "King",
+      "category": [
+        "Key Items"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Queen",
+      "category": [
+        "Key Items"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Fairy Knight Boss Token",
+      "category": [
+        "Boss Token"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Gita Boss Token",
+      "category": [
+        "Boss Token"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Cutter Boss Token",
+      "category": [
+        "Boss Token"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Cold Eye Boss Token",
+      "category": [
+        "Boss Token"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Terror Eyes Boss Token",
+      "category": [
+        "Boss Token"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Lexer Boss Token",
+      "category": [
+        "Boss Token"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "King Hades Boss Token",
+      "category": [
+        "Boss Token"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Earth Spirit Token",
+      "category": [
+        "Spirit Token"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Water Spirit Token",
+      "category": [
+        "Spirit Token"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Fire Spirit Token",
+      "category": [
+        "Spirit Token"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Wind Spirit Token",
+      "category": [
+        "Spirit Token"
+      ],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": 1,
+      "name": "Earth Dragon",
+      "category": [
+        "Transformations"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Ice Dragon",
+      "category": [
+        "Transformations"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Fire Dragon",
+      "category": [
+        "Transformations"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Wind Dragon",
+      "category": [
+        "Transformations"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 0",
+      "category": [
+        "Stage Unlocks",
+        "Full Stages"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 1",
+      "category": [
+        "Stage Unlocks",
+        "Full Stages"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 2",
+      "category": [
+        "Stage Unlocks",
+        "Full Stages"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 3",
+      "category": [
+        "Stage Unlocks",
+        "Full Stages"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 4",
+      "category": [
+        "Stage Unlocks",
+        "Full Stages"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 5",
+      "category": [
+        "Stage Unlocks",
+        "Full Stages"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 6",
+      "category": [
+        "Stage Unlocks",
+        "Full Stages"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 0-1",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 0-2",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 0-3",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 1-1",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 1-2",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 1-3",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 1-4",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 1-5",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 1-6",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 2-1",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 2-2",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 2-3",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 2-4",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 2-5",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 3-1",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 3-2",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 3-3",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 3-4",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 3-5",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 4-1",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 4-2",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 4-3",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 4-4",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 4-5",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 5-1",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 5-2",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 5-3",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 5-4",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 5-5",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 6-1",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 6-2",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 6-3",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 6-4",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 6-5",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 6-6",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 6-7",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Stage 6-8",
+      "category": [
+        "Stage Unlocks",
+        "Stagesanity"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Bonus Stage Flap Flap",
+      "category": [
+        "Stage Unlocks"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Bonus Stage Jump Jump",
+      "category": [
+        "Stage Unlocks"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Stage 1-1 Small Key",
+      "category": [
+        "Stage 1-1 Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Stage 1-2 Small Key",
+      "category": [
+        "Stage 1-2 Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Stage 1-5 Small Key",
+      "category": [
+        "Stage 1-5 Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Stage 1-3 Big Key",
+      "category": [
+        "Stage 1-3 Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": "2",
+      "name": "Stage 3-1 Small Key",
+      "category": [
+        "Stage 3-1 Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Stage 3-3 Small Key",
+      "category": [
+        "Stage 3-3 Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Stage 4-2 Small Key",
+      "category": [
+        "Stage 4-2 Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": "2",
+      "name": "Stage 5-3 Small Key",
+      "category": [
+        "Stage 5-3 Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": "2",
+      "name": "Stage 6-3 Small Key",
+      "category": [
+        "Stage 6-3 Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": 2,
+      "name": "Stage 6-4 Small Key",
+      "category": [
+        "Stage 6-4 Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Stage 6-7 Small Key",
+      "category": [
+        "Stage 6-7 Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Stage 2-3 Big Key",
+      "category": [
+        "Stage 2-3 Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Stage 3-3 Big Key",
+      "category": [
+        "Stage 3-3 Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Stage 4-3 Big Key",
+      "category": [
+        "Stage 4-3 Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Stage 6-7 Big Key",
+      "category": [
+        "Stage 6-7 Keys"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Seline",
+      "category": [
+        "Enable Magic"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Recovery Card",
+      "category": [
+        "Magic Cards"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Star Protection Card",
+      "category": [
+        "Magic Cards"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Guided Missile Card",
+      "category": [
+        "Magic Cards"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Explosion Card",
+      "category": [
+        "Magic Cards"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Meteor Strike Card",
+      "category": [
+        "Magic Cards"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Frog prince Card",
+      "category": [
+        "Magic Cards"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Rabbit Card",
+      "category": [
+        "Magic Cards"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Flashback Card",
+      "category": [
+        "Magic Cards"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Speed Card",
+      "category": [
+        "Magic Cards"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Invisibility Card",
+      "category": [
+        "Magic Cards"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Small Dorin Card",
+      "category": [
+        "Magic Cards"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Stop Card",
+      "category": [
+        "Magic Cards"
+      ],
+      "useful": true
+    }
+  ]
+}

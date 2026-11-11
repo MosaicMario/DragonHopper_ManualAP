@@ -1,0 +1,1859 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+  "data": [
+    {
+      "name": "Reveal Starting Stage",
+      "region": "Starting Region",
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-6 - Rescue King",
+      "region": "Stage 6-6",
+      "category": [
+        "Stage 6-6"
+      ],
+      "requires": "|Lexer Boss Token|",
+      "place_item": [
+        "King"
+      ]
+    },
+    {
+      "name": "Stage 6-6 - Rescue Queen",
+      "region": "Stage 6-6",
+      "category": [
+        "Stage 6-6"
+      ],
+      "requires": "|Lexer Boss Token|",
+      "place_item": [
+        "Queen"
+      ]
+    },
+    {
+      "name": "Stage 6-8 - Rescue Diana",
+      "region": "Stage 6-8",
+      "victory": true,
+      "category": [
+        "Stage 6-8"
+      ],
+      "requires": "|King Hades Boss Token|"
+    },
+    {
+      "name": "Stage 0-1 - Star Medal Above Pool Of Water",
+      "region": "Stage 0-1",
+      "category": [
+        "Star Medal",
+        "Stage 0-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 0-2 - Star Medal Above Start",
+      "region": "Stage 0-2",
+      "category": [
+        "Star Medal",
+        "Stage 0-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 0-2 - Star Medal Above Jump Pad",
+      "region": "Stage 0-2",
+      "category": [
+        "Star Medal",
+        "Stage 0-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 0-2 - Star Medal Before Chasm",
+      "region": "Stage 0-2",
+      "category": [
+        "Star Medal",
+        "Stage 0-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 0-2 - Star Medal After Chasm",
+      "region": "Stage 0-2",
+      "category": [
+        "Star Medal",
+        "Stage 0-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 0-2 - Star Medal Above Goal",
+      "region": "Stage 0-2",
+      "category": [
+        "Star Medal",
+        "Stage 0-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 1-1 - Star Medal On North Platform",
+      "region": "Stage 1-1",
+      "category": [
+        "Star Medal",
+        "Stage 1-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 1-1 - Star Medal On East Platform",
+      "region": "Stage 1-1",
+      "category": [
+        "Star Medal",
+        "Stage 1-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 1-1 - Star Medal On Center Platform",
+      "region": "Stage 1-1",
+      "category": [
+        "Star Medal",
+        "Stage 1-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 1-1 - Star Medal On South Platform",
+      "region": "Stage 1-1",
+      "category": [
+        "Star Medal",
+        "Stage 1-1"
+      ],
+      "requires": "|Stage 1-1 Small Key|"
+    },
+    {
+      "name": "Stage 1-2 - Star Medal Below Start",
+      "region": "Stage 1-2",
+      "category": [
+        "Star Medal",
+        "Stage 1-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 1-2 - Star Medal Left Of Keyhole",
+      "region": "Stage 1-2",
+      "category": [
+        "Star Medal",
+        "Stage 1-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 1-2 - Star Medal Right Side After Keyhole",
+      "region": "Stage 1-2",
+      "category": [
+        "Star Medal",
+        "Stage 1-2"
+      ],
+      "requires": "|Stage 1-2 Small Key|"
+    },
+    {
+      "name": "Stage 1-2 - Star Medal Platform South Of Goal",
+      "region": "Stage 1-2",
+      "category": [
+        "Star Medal",
+        "Stage 1-2"
+      ],
+      "requires": "|Stage 1-2 Small Key|"
+    },
+    {
+      "name": "Stage 1-3 - Star Medal Left Of Start",
+      "region": "Stage 1-3",
+      "category": [
+        "Star Medal",
+        "Stage 1-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 1-4 - Star Medal Near Start",
+      "region": "Stage 1-4",
+      "category": [
+        "Star Medal",
+        "Stage 1-4"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 1-4 - Star Medal Below Second Floor",
+      "region": "Stage 1-4",
+      "category": [
+        "Star Medal",
+        "Stage 1-4"
+      ],
+      "requires": "|Earth Dragon|"
+    },
+    {
+      "name": "Stage 1-4 - Star Medal Below Third Floor",
+      "region": "Stage 1-4",
+      "category": [
+        "Star Medal",
+        "Stage 1-4"
+      ],
+      "requires": "|Earth Dragon|"
+    },
+    {
+      "region": "Stage 1-5",
+      "name": "Stage 1-5 - Star Medal Left Side After Jump Pad",
+      "category": [
+        "Star Medal",
+        "Stage 1-5"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 1-5 - Star Medal On Path Right Of Keyhole",
+      "region": "Stage 1-5",
+      "category": [
+        "Star Medal",
+        "Stage 1-5"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-1 - Star Medal Underneath Breakable Floor #1",
+      "region": "Stage 2-1",
+      "category": [
+        "Star Medal",
+        "Stage 2-1"
+      ],
+      "requires": "|Earth Dragon|"
+    },
+    {
+      "name": "Stage 2-1 - Star Medal Underneath Breakable Floor #2",
+      "region": "Stage 2-1",
+      "category": [
+        "Star Medal",
+        "Stage 2-1"
+      ],
+      "requires": "|Earth Dragon|"
+    },
+    {
+      "name": "Stage 2-1 - Star Medal Underneath Breakable Floor #3",
+      "region": "Stage 2-1",
+      "category": [
+        "Star Medal",
+        "Stage 2-1"
+      ],
+      "requires": "|Earth Dragon|"
+    },
+    {
+      "name": "Stage 2-1 - Star Medal Above Goal",
+      "region": "Stage 2-1",
+      "category": [
+        "Star Medal",
+        "Stage 2-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-2 - Star Medal River Left Side",
+      "region": "Stage 2-2",
+      "category": [
+        "Star Medal",
+        "Stage 2-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-2 - Star Medal River Right Side",
+      "region": "Stage 2-2",
+      "category": [
+        "Star Medal",
+        "Stage 2-2"
+      ],
+      "requires": "|Earth Dragon|"
+    },
+    {
+      "name": "Stage 2-2 - Star Medal Above Bridge Near Goal",
+      "region": "Stage 2-2",
+      "category": [
+        "Star Medal",
+        "Stage 2-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-3 - Star Medal Above Start",
+      "region": "Stage 2-3",
+      "category": [
+        "Star Medal",
+        "Stage 2-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-3 - Star Medal Near Second Jump Pad",
+      "region": "Stage 2-3",
+      "category": [
+        "Star Medal",
+        "Stage 2-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-3 - Star Medal Along Path To Water Spirit",
+      "region": "Stage 2-3",
+      "category": [
+        "Star Medal",
+        "Stage 2-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-3 - Star Medal Underneath Breakable Floor ",
+      "region": "Stage 2-3",
+      "category": [
+        "Star Medal",
+        "Stage 2-3"
+      ],
+      "requires": "|Earth Dragon|"
+    },
+    {
+      "name": "Stage 2-3 - Star Medal Above River",
+      "region": "Stage 2-3",
+      "category": [
+        "Star Medal",
+        "Stage 2-3"
+      ],
+      "requires": "(|Water Spirit Token| AND |Ice Dragon|"
+    },
+    {
+      "name": "Stage 2-4 - Star Medal Along Top Path",
+      "region": "Stage 2-4",
+      "category": [
+        "Star Medal",
+        "Stage 2-4"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-4 - Star Medal Left Of Goal",
+      "region": "Stage 2-4",
+      "category": [
+        "Star Medal",
+        "Stage 2-4"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-1 - Star Medal On Platform Near Start",
+      "region": "Stage 3-1",
+      "category": [
+        "Star Medal",
+        "Stage 3-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-1 - Star Medal On Platform Near Jump Pad",
+      "region": "Stage 3-1",
+      "category": [
+        "Star Medal",
+        "Stage 3-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-1 - Star Medal Near Pool Of Water",
+      "region": "Stage 3-1",
+      "category": [
+        "Star Medal",
+        "Stage 3-1"
+      ],
+      "requires": "|Stage 3-1 Small Key:1|"
+    },
+    {
+      "name": "Stage 3-2 - Star Medal Above Pool Of Water",
+      "region": "Stage 3-2",
+      "category": [
+        "Star Medal",
+        "Stage 3-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-2 - Star Medal Near Windmill Platforms",
+      "region": "Stage 3-2",
+      "category": [
+        "Star Medal",
+        "Stage 3-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-2 - Star Medal Underneath Goal",
+      "region": "Stage 3-2",
+      "category": [
+        "Star Medal",
+        "Stage 3-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-3 - Star Medal Near Start",
+      "region": "Stage 3-3",
+      "category": [
+        "Star Medal",
+        "Stage 3-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-3 - Star Medal Left Of Frozen Button",
+      "region": "Stage 3-3",
+      "category": [
+        "Star Medal",
+        "Stage 3-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-3 - Star Medal Frozen After Elevator",
+      "region": "Stage 3-3",
+      "category": [
+      "Star Medal",
+      "Stage 3-3"
+      ],
+      "requires": "|Fire Spirit Token| AND |Fire Dragon|"
+    },
+    {
+      "name": "Stage 3-3 - Star Medal On Platform Near Goal",
+      "region": "Stage 3-3",
+      "category": [
+      "Star Medal",
+      "Stage 3-3"
+      ],
+      "requires": "|Fire Spirit Token| AND |Fire Dragon| AND |Stage 3-3 Small Key|"
+    },
+    {
+      "name": "Stage 3-4 - Star Medal North Of Windmill Platforms",
+      "region": "Stage 3-4",
+      "category": [
+        "Star Medal",
+        "Stage 3-4"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-4 - Star Medal Above Pool Of Water",
+      "region": "Stage 3-4",
+      "category": [
+        "Star Medal",
+        "Stage 3-4"
+      ],
+      "requires": "|Fire Dragon|"
+    },
+    {
+      "name": "Stage 3-4 - Left Platform Near Goal",
+      "region": "Stage 3-4",
+      "category": [
+        "Star Medal",
+        "Stage 3-4"
+      ],
+      "requires": "|Fire Dragon|"
+    },
+    {
+      "name": "Stage 4-1 - Star Medal Above Big Cloud North Of Start",
+      "region": "Stage 4-1",
+      "category": [
+        "Star Medal",
+        "Stage 4-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-1 - Star Medal Right Of Big Cloud North Of Start",
+      "region": "Stage 4-1",
+      "category": [
+        "Star Medal",
+        "Stage 4-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-1 - Star Medal On Small Pac-Man Shaped Cloud",
+      "region": "Stage 4-1",
+      "category": [
+        "Star Medal",
+        "Stage 4-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-1 - Star Medal On Small Cloud Near Jump Pad",
+      "region": "Stage 4-1",
+      "category": [
+        "Star Medal",
+        "Stage 4-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-1 - Star Medal On Small Cloud South Of Goal",
+      "region": "Stage 4-1",
+      "category": [
+        "Star Medal",
+        "Stage 4-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-2 - Star Medal Near Start",
+      "region": "Stage 4-2",
+      "category": [
+        "Star Medal",
+        "Stage 4-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-2 - Star Medal Left Side On Cloud",
+      "region": "Stage 4-2",
+      "category": [
+        "Star Medal",
+        "Stage 4-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-2 - Star Medal Right Side Underneath Small Hole",
+      "region": "Stage 4-2",
+      "category": [
+        "Star Medal",
+        "Stage 4-2"
+      ],
+      "requires": "|Fire Dragon| OR (|Seline| AND |Flashback Card|)"
+    },
+    {
+      "name": "Stage 4-2 - Star Meadal Near Goal",
+      "region": "Stage 4-2",
+      "category": [
+        "Star Medal",
+        "Stage 4-2"
+      ],
+      "requires": "|Stage 4-2 Small Key|"
+    },
+    {
+      "name": "Stage 4-3 - Star Medal Above Start",
+      "region": "Stage 4-3",
+      "category": [
+        "Star Medal",
+        "Stage 4-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-3 - Star Medal Along Top Path",
+      "region": "Stage 4-3",
+      "category": [
+        "Star Medal",
+        "Stage 4-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-3 - Star Medal Underneath Moving Cloud",
+      "region": "Stage 4-3",
+      "category": [
+        "Star Medal",
+        "Stage 4-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-3 - Star Medal Above Tornado Cloud",
+      "region": "Stage 4-3",
+      "category": [
+      "Star Medal",
+      "Stage 4-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-4 - Star Medal Along Top Path",
+      "region": "Stage 4-4",
+      "category": [
+        "Star Medal",
+        "Stage 4-4"
+      ],
+      "requires": "|Wind Dragon|"
+    },
+    {
+      "name": "Stage 4-4 - Star Medal Underneath Cloud With Small Hole",
+      "region": "Stage 4-4",
+      "category": [
+        "Star Medal",
+        "Stage 4-4"
+      ],
+      "requires": "|Wind Dragon| AND (|Fire Dragon| OR (|Seline| AND |Flashback Card|))"
+    },
+    {
+      "name": "Stage 5-1 - Star Medal Left Of Moving Star Platform",
+      "region": "Stage 5-1",
+      "category": [
+        "Star Medal",
+        "Stage 5-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-1 - Star Medal Teleporter On Loop Around Path #1",
+      "region": "Stage 5-1",
+      "category": [
+        "Star Medal",
+        "Stage 5-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-1 - Star Medal Teleporter On Loop Around Path #2",
+      "region": "Stage 5-1",
+      "category": [
+        "Star Medal",
+        "Stage 5-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-1 - Star Medal Teleporter On Loop Around Path #3",
+      "region": "Stage 5-1",
+      "category": [
+        "Star Medal",
+        "Stage 5-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-1 - Star Medal Left Of Loop Around Path",
+      "region": "Stage 5-1",
+      "category": [
+        "Star Medal",
+        "Stage 5-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-2 - Star Medal Above Start",
+      "region": "Stage 5-2",
+      "category": [
+        "Star Medal",
+        "Stage 5-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-2 - Star Medal Along Top Right Path",
+      "region": "Stage 5-2",
+      "category": [
+        "Star Medal",
+        "Stage 5-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-2 - Star Medal Near Goal",
+      "region": "Stage 5-2",
+      "category": [
+        "Star Medal",
+        "Stage 5-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-3 - Star Medal Left Of Small Moving Star Platforms",
+      "region": "Stage 5-3",
+      "category": [
+        "Star Medal",
+        "Stage 5-3"
+      ],
+      "requires": "|Stage 5-3 Small Key:2|"
+    },
+    {
+      "name": "Stage 5-3 - Star Medal Above Big Moving Star Platforms",
+      "region": "Stage 5-3",
+      "category": [
+        "Star Medal",
+        "Stage 5-3"
+      ],
+      "requires": "|Stage 5-3 Small Key:2|"
+    },
+    {
+      "name": "Stage 5-3 - Star Medal Above Platform Before Big Moving Star Platforms",
+      "region": "Stage 5-3",
+      "category": [
+        "Star Medal",
+        "Stage 5-3"
+      ],
+      "requires": "|Stage 5-3 Small Key:2|"
+    },
+    {
+      "name": "Stage 5-4 - Star Medal On Vanishing Path Near Start",
+      "region": "Stage 5-4",
+      "category": [
+        "Star Medal",
+        "Stage 5-4"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-4 - Star Medal Along Small Platforms",
+      "region": "Stage 5-4",
+      "category": [
+        "Star Medal",
+        "Stage 5-4"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-4 - Star Medal Below Goal",
+      "region": "Stage 5-4",
+      "category": [
+        "Star Medal",
+        "Stage 5-4"
+      ],
+      "requires": ""
+    },
+     {
+      "name": "Stage 5-5 - Star Medal Above Right Side",
+      "region": "Stage 5-5",
+      "category": [
+        "Star Medal",
+        "Stage 5-5"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-1 - Star Medal On Cloud Platform",
+      "region": "Stage 6-1",
+      "category": [
+        "Star Medal",
+        "Stage 6-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-1 - Star Medal On Platform Near Pool Of Water",
+      "region": "Stage 6-1",
+      "category": [
+        "Star Medal",
+        "Stage 6-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-1 - Star Medal On Platform Above Pool Of Water",
+      "region": "Stage 6-1",
+      "category": [
+        "Star Medal",
+        "Stage 6-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-1 - Star Medal On Platform Near Goal",
+      "region": "Stage 6-1",
+      "category": [
+        "Star Medal",
+        "Stage 6-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-2 - Star Medal Before Moving Platforms Towards Goal #1",
+      "region": "Stage 6-2",
+      "category": [
+        "Star Medal",
+        "Stage 6-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-2 - Star Medal Before Moving Platforms Towards Goal #2",
+      "region": "Stage 6-2",
+      "category": [
+        "Star Medal",
+        "Stage 6-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-2 - Star Medal Before Moving Platforms Towards Goal #3",
+      "region": "Stage 6-2",
+      "category": [
+        "Star Medal",
+        "Stage 6-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-3 - Star Medal Near Keyhole",
+      "region": "Stage 6-3",
+      "category": [
+        "Star Medal",
+        "Stage 6-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-3 - Star Medal At Spinning Platforms",
+      "region": "Stage 6-3",
+      "category": [
+        "Star Medal",
+        "Stage 6-3"
+      ],
+      "requires": "|Stage 6-3 Small Key|"
+    },
+    {
+      "name": "Stage 6-3 - Star Medal Near Rotating Platforms",
+      "region": "Stage 6-3",
+      "category": [
+        "Star Medal",
+        "Stage 6-3"
+      ],
+      "requires": "|Stage 6-3 Small Key:1|"
+    },
+    {
+      "name": "Stage 6-4 - Star Medal Below Start",
+      "region": "Stage 6-4",
+      "category": [
+        "Star Medal",
+        "Stage 6-4"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-4 - Star Medal Above Vanishing Path",
+      "region": "Stage 6-4",
+      "category": [
+        "Star Medal",
+        "Stage 6-4"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-4 - Star Medal Maze Bottom Right Corner",
+      "region": "Stage 6-4",
+      "category": [
+        "Star Medal",
+        "Stage 6-4"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bonus Stage Flap Flap - Get 1 Medal",
+      "region": "Bonus Stage Flap Flap",
+      "category": [
+        "Star Medal",
+        "Bonus Stage Flap Flap"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bonus Stage Flap Flap - Get 2 Medals",
+      "region": "Bonus Stage Flap Flap",
+      "category": [
+        "Star Medal",
+        "Bonus Stage Flap Flap"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bonus Stage Flap Flap - Get 3 Medals",
+      "region": "Bonus Stage Flap Flap",
+      "category": [
+        "Star Medal",
+        "Bonus Stage Flap Flap"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bonus Stage Flap Flap - Get 4 Medals",
+      "region": "Bonus Stage Flap Flap",
+      "category": [
+        "Star Medal",
+        "Bonus Stage Flap Flap"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bonus Stage Flap Flap - Get 5 Medals",
+      "region": "Bonus Stage Flap Flap",
+      "category": [
+        "Star Medal",
+        "Bonus Stage Flap Flap"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bonus Stage Flap Flap - Get 6 Medals",
+      "region": "Bonus Stage Flap Flap",
+      "category": [
+        "Star Medal",
+        "Bonus Stage Flap Flap"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bonus Stage Flap Flap - Get 7 Medals",
+      "region": "Bonus Stage Flap Flap",
+      "category": [
+        "Star Medal",
+        "Bonus Stage Flap Flap"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bonus Stage Flap Flap - Get 8 Medals",
+      "region": "Bonus Stage Flap Flap",
+      "category": [
+        "Star Medal",
+        "Bonus Stage Flap Flap"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bonus Stage Flap Flap - Get 9 Medals",
+      "region": "Bonus Stage Flap Flap",
+      "category": [
+        "Star Medal",
+        "Bonus Stage Flap Flap"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bonus Stage Flap Flap - Get 10 Medals",
+      "region": "Bonus Stage Flap Flap",
+      "category": [
+        "Star Medal",
+        "Bonus Stage Flap Flap"
+      ],
+      "requires": ""
+    },
+    {
+      "region": "Bonus Stage Jump Jump",
+      "name": "Bonus Stage Jump Jump - Get 1 Medal",
+      "category": [
+        "Star Medal",
+        "Bonus Stage Jump Jump"
+      ],
+      "requires": ""
+    },
+    {
+      "region": "Bonus Stage Jump Jump",
+      "name": "Bonus Stage Jump Jump - Get 2 Medals",
+      "category": [
+        "Star Medal",
+        "Bonus Stage Jump Jump"
+      ],
+      "requires": ""
+    },
+    {
+      "region": "Bonus Stage Jump Jump",
+      "name": "Bonus Stage Jump Jump - Get 3 Medals",
+      "category": [
+        "Star Medal",
+        "Bonus Stage Jump Jump"
+      ],
+      "requires": ""
+    },
+    {
+      "region": "Bonus Stage Jump Jump",
+      "name": "Bonus Stage Jump Jump - Get 4 Medals",
+      "category": [
+        "Star Medal",
+        "Bonus Stage Jump Jump"
+      ],
+      "requires": ""
+    },
+    {
+      "region": "Bonus Stage Jump Jump",
+      "name": "Bonus Stage Jump Jump - Get 5 Medals",
+      "category": [
+        "Star Medal",
+        "Bonus Stage Jump Jump"
+      ],
+      "requires": ""
+    },
+    {
+      "region": "Bonus Stage Jump Jump",
+      "name": "Bonus Stage Jump Jump - Get 6 Medals",
+      "category": [
+        "Star Medal",
+        "Bonus Stage Jump Jump"
+      ],
+      "requires": ""
+    },
+    {
+      "region": "Bonus Stage Jump Jump",
+      "name": "Bonus Stage Jump Jump - Get 7 Medals",
+      "category": [
+        "Star Medal",
+        "Bonus Stage Jump Jump"
+      ],
+      "requires": ""
+    },
+    {
+      "region": "Bonus Stage Jump Jump",
+      "name": "Bonus Stage Jump Jump - Get 8 Medals",
+      "category": [
+        "Star Medal",
+        "Bonus Stage Jump Jump"
+      ],
+      "requires": ""
+    },
+    {
+      "region": "Bonus Stage Jump Jump",
+      "name": "Bonus Stage Jump Jump - Get 9 Medals",
+      "category": [
+        "Star Medal",
+        "Bonus Stage Jump Jump"
+      ],
+      "requires": ""
+    },
+    {
+      "region": "Bonus Stage Jump Jump",
+      "name": "Bonus Stage Jump Jump - Get 10 Medals",
+      "category": [
+        "Star Medal",
+        "Bonus Stage Jump Jump"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 1-1 - Small Key",
+      "region": "Stage 1-1",
+      "category": [
+        "Small Key",
+        "Stage 1-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 1-2 - Small Key",
+      "region": "Stage 1-2",
+      "category": [
+        "Small Key",
+        "Stage 1-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 1-5 - Small Key",
+      "region": "Stage 1-5",
+      "category": [
+        "Small Key",
+        "Stage 1-5"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-1 - Small Key #1",
+      "region": "Stage 3-1",
+      "category": [
+        "Small Key",
+        "Stage 3-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-1 - Small Key #2",
+      "region": "Stage 3-1",
+      "category": [
+        "Small Key",
+        "Stage 3-1"
+      ],
+      "requires": "|Stage 3-1 Small Key:1|"
+    },
+    {
+      "name": "Stage 3-3 - Small Key",
+      "region": "Stage 3-3",
+      "category": [
+      "Small Key",
+      "Stage 3-3"
+      ],
+      "requires": "|Fire Spirit Token| AND |Fire Dragon|"
+    },
+    {
+      "name": "Stage 4-2 - Small Key",
+      "region": "Stage 4-2",
+      "category": [
+        "Small Key",
+        "Stage 4-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-3 - Small Key #1",
+      "region": "Stage 5-3",
+      "category": [
+        "Small Key",
+        "Stage 5-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-3 - Small Key #2",
+      "region": "Stage 5-3",
+      "category": [
+        "Small Key",
+        "Stage 5-3"
+      ],
+      "requires": "|Stage 5-3 Small Key:1|"
+    },
+    {
+      "name": "Stage 6-3 - Small Key #1",
+      "region": "Stage 6-3",
+      "category": [
+        "Small Key",
+        "Stage 6-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-3 - Small Key #2",
+      "region": "Stage 6-3",
+      "category": [
+        "Small Key",
+        "Stage 6-3"
+      ],
+      "requires": "|Stage 6-3 Small Key:1|"
+    },
+    {
+      "name": "Stage 6-4 - Small Key #1",
+      "region": "Stage 6-4",
+      "category": [
+        "Small Key",
+        "Stage 6-4"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-4 - Small Key #2",
+      "region": "Stage 6-4",
+      "category": [
+        "Small Key",
+        "Stage 6-4"
+      ],
+      "requires": "|Stage 6-4 Small Key:1|"
+    },
+    {
+      "name": "Stage 6-7 - Small Key",
+      "region": "Stage 6-7",
+      "category": [
+        "Small Key",
+        "Stage 6-7"
+      ],
+      "requires": "|Fire Dragon|"
+    },
+    {
+      "name": "Stage 1-3 - Big Key",
+      "region": "Stage 1-3",
+      "category": [
+        "Big Key",
+        "Stage 1-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-3 - Big Key",
+      "region": "Stage 2-3",
+      "category": [
+        "Big Key",
+        "Stage 2-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-3 - Big Key",
+      "region": "Stage 3-3",
+      "category": [
+        "Big Key",
+        "Stage 3-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-3 - Big Key",
+      "region": "Stage 4-3",
+      "category": [
+        "Big Key",
+        "Stage 4-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-7 - Big Key",
+      "region": "Stage 6-7",
+      "category": [
+        "Big Key",
+        "Stage 6-7"
+      ],
+      "requires": "|Fire Dragon| AND |Stage 6-7 Small Key|"
+    },
+    {
+      "name": "Stage 0-1 - Goal",
+      "region": "Stage 0-1",
+      "category": [
+        "Goal",
+        "Stage 0-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 0-2 - Goal",
+      "region": "Stage 0-2",
+      "category": [
+        "Goal",
+        "Stage 0-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 0-3 - Goal",
+      "region": "Stage 0-3",
+      "category": [
+        "Goal",
+        "Stage 0-3"
+      ],
+      "requires": "|Fairy Knight Boss Token|"
+    },
+    {
+      "name": "Stage 1-1 - Goal",
+      "region": "Stage 1-1",
+      "category": [
+        "Goal",
+        "Stage 1-1"
+      ],
+      "requires": "|Stage 1-1 Small Key|"
+    },
+    {
+      "name": "Stage 1-2 - Goal",
+      "region": "Stage 1-2",
+      "category": [
+        "Goal",
+        "Stage 1-2"
+      ],
+      "requires": "|Stage 1-2 Small Key|"
+    },
+    {
+      "name": "Stage 1-3 - Goal",
+      "region": "Stage 1-3",
+      "category": [
+        "Goal",
+        "Stage 1-3"
+      ],
+      "requires": "|Earth Spirit Token| AND |Earth Dragon|"
+    },
+    {
+      "name": "Stage 1-4 - Goal",
+      "region": "Stage 1-4",
+      "category": [
+        "Goal",
+        "Stage 1-4"
+      ],
+      "requires": "|Earth Dragon|"
+    },
+    {
+      "name": "Stage 1-5 - Goal",
+      "region": "Stage 1-5",
+      "category": [
+        "Goal",
+        "Stage 1-5"
+      ],
+      "requires": "|Stage 1-5 Small Key|"
+    },
+    {
+      "name": "Stage 1-6 - Goal",
+      "region": "Stage 1-6",
+      "category": [
+        "Goal",
+        "Stage 1-6"
+      ],
+      "requires": "|Gita Boss Token|"
+    },
+    {
+      "name": "Stage 2-1 - Goal",
+      "region": "Stage 2-1",
+      "category": [
+        "Goal",
+        "Stage 2-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-2 - Goal",
+      "region": "Stage 2-2",
+      "category": [
+        "Goal",
+        "Stage 2-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-3 - Goal",
+      "region": "Stage 2-3",
+      "category": [
+      "Goal",
+      "Stage 2-3"
+      ],
+      "requires": "|Water Spirit Token| AND |Ice Dragon|"
+    },
+    {
+      "name": "Stage 2-4 - Goal",
+      "region": "Stage 2-4",
+      "category": [
+        "Goal",
+        "Stage 2-4"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-5 - Goal",
+      "region": "Stage 2-5",
+      "category": [
+        "Goal",
+        "Stage 2-5"
+      ],
+      "requires": "|Cutter Boss Token|"
+    },
+    {
+      "name": "Stage 3-1 - Goal",
+      "region": "Stage 3-1",
+      "category": [
+        "Goal",
+        "Stage 3-1"
+      ],
+      "requires": "|Stage 3-1 Small Key:2|"
+    },
+    {
+      "name": "Stage 3-2 - Goal",
+      "region": "Stage 3-2",
+      "category": [
+        "Goal",
+        "Stage 3-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-3 - Goal",
+      "region": "Stage 3-3",
+      "category": [
+      "Goal",
+      "Stage 3-3"
+      ],
+      "requires": "|Fire Spirit Token| AND |Fire Dragon| AND |Stage 3-3 Small Key|"
+    },
+    {
+      "name": "Stage 3-4 - Goal",
+      "region": "Stage 3-4",
+      "category": [
+        "Goal",
+        "Stage 3-4"
+      ],
+      "requires": "|Fire Dragon|"
+    },
+    {
+      "name": "Stage 3-5 - Goal",
+      "region": "Stage 3-5",
+      "category": [
+        "Goal",
+        "Stage 3-5"
+      ],
+      "requires": "|Cold Eye Boss Token|"
+    },
+    {
+      "name": "Stage 4-1 - Goal",
+      "region": "Stage 4-1",
+      "category": [
+        "Goal",
+        "Stage 4-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-2 - Goal",
+      "region": "Stage 4-2",
+      "category": [
+        "Goal",
+        "Stage 4-2"
+      ],
+      "requires": "|Stage 4-2 Small Key|"
+    },
+    {
+      "name": "Stage 4-3 - Goal",
+      "region": "Stage 4-3",
+      "category": [
+      "Goal",
+      "Stage 4-3"
+      ],
+      "requires": "|Wind Spirit Token| AND |Wind Dragon|"
+    },
+    {
+      "name": "Stage 4-4 - Goal",
+      "region": "Stage 4-4",
+      "category": [
+        "Goal",
+        "Stage 4-4"
+      ],
+      "requires": "|Wind Dragon|"
+    },
+    {
+      "name": "Stage 4-5 - Goal",
+      "region": "Stage 4-5",
+      "category": [
+        "Goal",
+        "Stage 4-5"
+      ],
+      "requires": "|Terror Eyes Boss Token|"
+    },
+    {
+      "name": "Stage 5-1 - Goal",
+      "region": "Stage 5-1",
+      "category": [
+        "Goal",
+        "Stage 5-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-2 - Goal",
+      "region": "Stage 5-2",
+      "category": [
+        "Goal",
+        "Stage 5-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-3 - Goal",
+      "region": "Stage 5-3",
+      "category": [
+        "Goal",
+        "Stage 5-3"
+      ],
+      "requires": "|Stage 5-3 Small Key:2|"
+    },
+    {
+      "name": "Stage 5-4 - Goal",
+      "region": "Stage 5-4",
+      "category": [
+        "Goal",
+        "Stage 5-4"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-5 - Goal",
+      "region": "Stage 5-5",
+      "category": [
+        "Goal",
+        "Stage 5-5"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-1 - Goal",
+      "region": "Stage 6-1",
+      "category": [
+        "Goal",
+        "Stage 6-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-2 - Goal",
+      "region": "Stage 6-2",
+      "category": [
+        "Goal",
+        "Stage 6-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-3 - Goal",
+      "region": "Stage 6-3",
+      "category": [
+        "Goal",
+        "Stage 6-3"
+      ],
+      "requires": "|Stage 6-3 Small Key:2|"
+    },
+    {
+      "name": "Stage 6-4 - Goal",
+      "region": "Stage 6-4",
+      "category": [
+        "Goal",
+        "Stage 6-4"
+      ],
+      "requires": "|Stage 6-4 Small Key:2|"
+    },
+    {
+      "name": "Stage 6-5 - Goal",
+      "region": "Stage 6-5",
+      "category": [
+        "Goal",
+        "Stage 6-5"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-6 - Goal",
+      "region": "Stage 6-6",
+      "category": [
+        "Goal",
+        "Stage 6-6"
+      ],
+      "requires": "|King| AND |Queen|"
+    },
+    {
+      "name": "Stage 6-7 - Goal",
+      "region": "Stage 6-7",
+      "category": [
+        "Goal",
+        "Stage 6-7"
+      ],
+      "requires": "|Fire Dragon| AND |Stage 6-7 Small Key| AND |Stage 6-7 Big Key|"
+    },
+    {
+      "name": "Stage 0-3 - Defeat Fairy Knight",
+      "region": "Stage 0-3",
+      "category": [
+        "Bosses",
+        "Stage 0-3"
+      ],
+      "requires": "",
+      "place_item": [
+        "Fairy Knight Boss Token"
+      ]
+    },
+    {
+      "name": "Stage 1-6 - Defeat Gita",
+      "region": "Stage 1-6",
+      "category": [
+        "Bosses",
+        "Stage 1-6"
+      ],
+      "requires": "",
+      "place_item": [
+        "Gita Boss Token"
+      ]
+    },
+    {
+      "name": "Stage 2-5 - Defeat Cutter",
+      "region": "Stage 2-5",
+      "category": [
+        "Bosses",
+        "Stage 2-5"
+      ],
+      "requires": "",
+      "place_item": [
+        "Cutter Boss Token"
+      ]
+    },
+    {
+      "name": "Stage 3-5 - Defeat Cold Eye",
+      "region": "Stage 3-5",
+      "category": [
+        "Bosses",
+        "Stage 3-5"
+      ],
+      "requires": "",
+      "place_item": [
+        "Cold Eye Boss Token"
+      ]
+    },
+    {
+      "name": "Stage 4-5 - Defeat Terror Eyes",
+      "region": "Stage 4-5",
+      "category": [
+        "Bosses",
+        "Stage 4-5"
+      ],
+      "requires": "",
+      "place_item": [
+        "Terror Eyes Boss Token"
+      ]
+    },
+    {
+      "name": "Stage 6-6 - Defeat Lexer",
+      "region": "Stage 6-6",
+      "victory": false,
+      "category": [
+        "Bosses",
+        "Stage 6-6"
+      ],
+      "requires": "",
+      "place_item": [
+        "Lexer Boss Token"
+      ]
+    },
+    {
+      "name": "Stage 6-8 - Defeat King Hades",
+      "region": "Stage 6-8",
+      "category": [
+        "Bosses",
+        "Stage 6-8"
+      ],
+      "requires": ""
+      ,
+      "place_item": [
+        "King Hades Boss Token"
+      ]
+    },
+    {
+      "name": "Stage 1-3 - Release Earth Spirit",
+      "region": "Stage 1-3",
+      "category": [
+        "Spirits",
+        "Stage 1-3"
+      ],
+      "requires": "|Stage 1-3 Big Key|",
+      "place_item": [
+        "Earth Spirit Token"
+      ]
+    },
+    {
+      "name": "Stage 2-3 - Release Water Spirit",
+      "region": "Stage 2-3",
+      "category": [
+        "Spirits",
+        "Stage 2-3"
+      ],
+      "requires": "|Stage 2-3 Big Key|",
+      "place_item": [
+        "Water Spirit Token"
+      ]
+    },
+    {
+      "name": "Stage 3-3 - Release Fire Spirit",
+      "region": "Stage 3-3",
+      "category": [
+        "Spirits",
+        "Stage 3-3"
+      ],
+      "requires": "|Stage 3-3 Big Key|",
+      "place_item": [
+        "Fire Spirit Token"
+      ]
+    },
+    {
+      "name": "Stage 4-3 - Release Wind Spirit",
+      "region": "Stage 4-3",
+      "category": [
+        "Spirits",
+        "Stage 4-3"
+      ],
+      "requires": "|Stage 4-3 Big Key|",
+      "place_item": [
+        "Wind Spirit Token"
+      ]
+    },
+    {
+      "name": "Stage 1-3 - Obtain Earth Transformation",
+      "region": "Stage 1-3",
+      "category": [
+        "Transformation",
+        "Stage 1-3"
+      ],
+      "requires": "|Earth Spirit Token|"
+    },
+    {
+      "name": "Stage 2-3 - Obtain Water Transformation",
+      "region": "Stage 2-3",
+      "category": [
+        "Transformation",
+        "Stage 2-3"
+      ],
+      "requires": "|Water Spirit Token|"
+    },
+    {
+      "name": "Stage 3-3 - Obtain Fire Transformation",
+      "region": "Stage 3-3",
+      "category": [
+        "Transformation",
+        "Stage 3-3"
+      ],
+      "requires": "|Fire Spirit Token|"
+    },
+    {
+      "name": "Stage 4-3 - Obtain Wind Transformation",
+      "region": "Stage 4-3",
+      "category": [
+        "Transformation",
+        "Stage 4-3"
+      ],
+      "requires": "|Wind Spirit Token|"
+    },
+    {
+      "name": "Stage 0-3 - Obtain Seline",
+      "region": "Stage 0-3",
+      "category": [
+        "Story",
+        "Stage 0-3"
+      ],
+      "requires": "|Fairy Knight Boss Token|"
+    },
+    {
+      "name": "Stage 0-3 - Obtain Magic Card",
+      "region": "Stage 0-3",
+      "category": [
+        "Story",
+        "Stage 0-3"
+      ],
+      "requires": "|Fairy Knight Boss Token|"
+    },
+    {
+      "name": "Stage 5-5 - Obtain Star Crystal",
+      "region": "Stage 5-5",
+      "category": [
+        "Story",
+        "Stage 5-5"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Trading Post - Purchase Magic Card (10 Star Medals)",
+      "region": "Trading Post",
+      "category": [
+        "Trading Post"
+      ],
+      "requires": "|Star Medal:10|"
+    },
+    {
+      "name": "Trading Post - Purchase Magic Card (20 Star Medals)",
+      "region": "Trading Post",
+      "category": [
+        "Trading Post"
+      ],
+      "requires": "|Star Medal:20|"
+    },
+    {
+      "name": "Trading Post - Purchase Magic Card (30 Star Medals)",
+      "region": "Trading Post",
+      "category": [
+        "Trading Post"
+      ],
+      "requires": "|Star Medal:30|"
+    },
+    {
+      "name": "Trading Post - Purchase Magic Card (40 Star Medals)",
+      "region": "Trading Post",
+      "category": [
+        "Trading Post"
+      ],
+      "requires": "|Star Medal:40|"
+    },
+    {
+      "name": "Trading Post - Purchase Magic Card (50 Star Medals)",
+      "region": "Trading Post",
+      "category": [
+        "Trading Post"
+      ],
+      "requires": "|Star Medal:50|"
+    },
+    {
+      "name": "Trading Post - Purchase Magic Card (60 Star Medals)",
+      "region": "Trading Post",
+      "category": [
+        "Trading Post"
+      ],
+      "requires": "|Star Medal:60|"
+    },
+    {
+      "name": "Trading Post - Purchase Magic Card (70 Star Medals)",
+      "region": "Trading Post",
+      "category": [
+        "Trading Post"
+      ],
+      "requires": "|Star Medal:70|"
+    },
+    {
+      "name": "Trading Post - Purchase Magic Card (80 Star Medals)",
+      "region": "Trading Post",
+      "category": [
+        "Trading Post"
+      ],
+      "requires": "|Star Medal:80|"
+    },
+    {
+      "name": "Trading Post - Purchase Magic Card (90 Star Medals)",
+      "region": "Trading Post",
+      "category": [
+        "Trading Post"
+      ],
+      "requires": "|Star Medal:90|"
+    },
+    {
+      "name": "Trading Post - Purchase Magic Card (100 Star Medals)",
+      "region": "Trading Post",
+      "category": [
+        "Trading Post"
+      ],
+      "requires": "|Star Medal:100|"
+    },
+    {
+      "name": "Trading Post - Purchase Magic Card (110 Star Medals)",
+      "region": "Trading Post",
+      "category": [
+        "Trading Post"
+      ],
+      "requires": "|Star Medal:110|"
+    },
+    {
+      "name": "Stage 1-4 - Trading Post Bonus Game Clerk",
+      "region": "Trading Post",
+      "category": [
+        "Stage 1-4"
+      ],
+      "requires": "(|Unlock Stage 1| OR |Unlock Stage 1-4|) AND |Earth Dragon|"
+    },
+    {
+      "name": "Stage 2-4 - Trading Post Bonus Game Clerk",
+      "region": "Trading Post",
+      "category": [
+        "Stage 2-4"
+      ],
+      "requires": "|Unlock Stage 2| OR |Unlock Stage 2-4|"
+    },
+    {
+      "name": "Stage 3-4 - Trading Post Bonus Game Clerk",
+      "region": "Trading Post",
+      "category": [
+        "Stage 3-4"
+      ],
+      "requires": "(|Unlock Stage 3| OR |Unlock Stage 3-4|) AND |Fire Dragon|"
+    },
+    {
+      "name": "Stage 4-4 - Trading Post Bonus Game Clerk",
+      "region": "Trading Post",
+      "category": [
+        "Stage 4-4"
+      ],
+      "requires": "(|Unlock Stage 1| OR |Unlock Stage 1-4|) AND |Wind Dragon|"
+    },
+    {
+      "name": "Stage 5-4 - Trading Post Bonus Game Clerk",
+      "region": "Trading Post",
+      "category": [
+        "Stage 5-4"
+      ],
+      "requires": "|Unlock Stage 5| OR |Unlock Stage 5-4|"
+    },
+    {
+      "name": "Stage 6-5 - Trading Post Bonus Game Clerk",
+      "region": "Trading Post",
+      "category": [
+        "Stage 6-5"
+      ],
+      "requires": "|Unlock Stage 6| OR |Unlock Stage 6-5|"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
+    "user": {
+        "stagesanity":{
+            "description": [
+                "Every Sub-Stage becomes a separate item unlock. Additionally, you need to find",
+                "Stage 6-6 Unlock alongside the Lexer Fight Requirement to fight Lexer, as well",
+                "as Stage 6-8 Unlock alongside the Star Crystal to be able to fight King Hades."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Stage Options"
+        },
+        "starting_stage": {
+            "display_name": "Starting Stage",
+            "description": [
+                "Choose a Stage as a starting area.",
+                "A random Sub-Stage of the selected Stage will be chosen as the starting area when Stagesanity is enabled.",
+                "Boss Stages and Sub-Stages that can't progress without a transformation are excluded from the Sub-Stage pool."
+            ],
+            "type": "Choice",
+            "values": {
+                "Stage0": 0,
+                "Stage1": 1,
+                "Stage2": 2,
+                "Stage3": 3,
+                "Stage4": 4,
+                "Stage5": 5,
+                "Stage6": 6
+            },
+            "group": "Stage Options"
+        },
+        "lexer_fight_unlock":{
+            "display_name": "Lexer Fight Unlock",
+            "type": "Choice",
+            "description": [
+                "Criteria under which Lexer becomes beatable in Stage 6-6.",
+                "You also need to find the Stage 6 Unlock item in order to access Stage 6-6.",
+                "Star Medals: Collect the required number of Star Medals to be able to fight Lexer.",
+                "Bosses: Defeat the required number of Bosses to be able to fight Lexer.",
+                "Spirits: Release the required number of Spirits to be able to fight Lexer."
+            ],
+            "values": {
+                "Star_Medals":0,
+                "Bosses":1,
+                "Spirits":2
+             },
+            "default": 0,
+            "allow_custom_value": false,
+            "group": "Game Options"
+        },
+        "star_medals_required":{
+            "display_name": "Star Medals Required",
+            "type": "Range",
+            "description": [
+                "Number of required Star Medals to collect when Lexer Fight Unlock is set to Star Medals."
+            ],
+            "range_start": 1,
+            "default": 80,
+            "range_end": 110,
+            "group": "Game Options"
+        },
+        "bosses_required":{
+            "display_name": "Bosses Required",
+            "type": "Range",
+            "description": [
+                "Number of required Bosses to defeat when Lexer Fight Unlock is set to Bosses."
+            ],
+            "range_start": 1,
+            "default": 4,
+            "range_end": 5,
+            "group": "Game Options"
+        },
+        "spirits_required":{
+            "display_name": "Spirits Required",
+            "type": "Range",
+            "description": [
+                "Number of required Spirits to be released when Lexer Fight Unlock is set to Spirits."
+            ],
+            "range_start": 1,
+            "default": 3,
+            "range_end": 4,
+            "group": "Game Options"
+        }
+    }
+
+}
