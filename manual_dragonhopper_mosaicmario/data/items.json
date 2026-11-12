@@ -37,7 +37,7 @@
       "count": 1,
       "name": "Fairy Knight Boss Token",
       "category": [
-        "Boss Token"
+        "Boss Tokens"
       ],
       "progression_skip_balancing": true
     },
@@ -45,7 +45,7 @@
       "count": 1,
       "name": "Gita Boss Token",
       "category": [
-        "Boss Token"
+        "Boss Tokens"
       ],
       "progression_skip_balancing": true
     },
@@ -53,7 +53,7 @@
       "count": 1,
       "name": "Cutter Boss Token",
       "category": [
-        "Boss Token"
+        "Boss Tokens"
       ],
       "progression_skip_balancing": true
     },
@@ -61,7 +61,7 @@
       "count": 1,
       "name": "Cold Eye Boss Token",
       "category": [
-        "Boss Token"
+        "Boss Tokens"
       ],
       "progression_skip_balancing": true
     },
@@ -69,7 +69,7 @@
       "count": 1,
       "name": "Terror Eyes Boss Token",
       "category": [
-        "Boss Token"
+        "Boss Tokens"
       ],
       "progression_skip_balancing": true
     },
@@ -77,7 +77,7 @@
       "count": 1,
       "name": "Lexer Boss Token",
       "category": [
-        "Boss Token"
+        "Boss Tokens"
       ],
       "progression_skip_balancing": true
     },
@@ -85,7 +85,7 @@
       "count": 1,
       "name": "King Hades Boss Token",
       "category": [
-        "Boss Token"
+        "Boss Tokens"
       ],
       "progression_skip_balancing": true
     },
@@ -93,7 +93,7 @@
       "count": 1,
       "name": "Earth Spirit Token",
       "category": [
-        "Spirit Token"
+        "Spirit Tokens"
       ],
       "progression_skip_balancing": true
     },
@@ -101,7 +101,7 @@
       "count": 1,
       "name": "Water Spirit Token",
       "category": [
-        "Spirit Token"
+        "Spirit Tokens"
       ],
       "progression_skip_balancing": true
     },
@@ -109,7 +109,7 @@
       "count": 1,
       "name": "Fire Spirit Token",
       "category": [
-        "Spirit Token"
+        "Spirit Tokens"
       ],
       "progression_skip_balancing": true
     },
@@ -117,7 +117,7 @@
       "count": 1,
       "name": "Wind Spirit Token",
       "category": [
-        "Spirit Token"
+        "Spirit Tokens"
       ],
       "progression_skip_balancing": true
     },
@@ -689,7 +689,7 @@
       "count": 1,
       "name": "Seline",
       "category": [
-        "Enable Magic"
+        "Enable Magic Cards"
       ],
       "progression": true
     },
