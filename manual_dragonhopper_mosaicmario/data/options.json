@@ -3,9 +3,8 @@
     "user": {
         "stagesanity":{
             "description": [
-                "Every Sub-Stage becomes a separate item unlock. Additionally, you need to find",
-                "Stage 6-6 Unlock alongside the Lexer Fight Requirement to fight Lexer, as well",
-                "as Stage 6-8 Unlock alongside the Star Crystal to be able to fight King Hades."
+                "Every substage will have its own unlock item. Additionally, you will need to find Unlock",
+                "Stage 6-6 and Unlock Stage 6-8 to be able to fight Lexer and King Hades respectively."
             ],
             "type": "Toggle",
             "default": false,
@@ -14,9 +13,9 @@
         "starting_stage": {
             "display_name": "Starting Stage",
             "description": [
-                "Choose a Stage as a starting area.",
-                "A random Sub-Stage of the selected Stage will be chosen as the starting area when Stagesanity is enabled.",
-                "Boss Stages and Sub-Stages that can't progress without a transformation are excluded from the Sub-Stage pool."
+                "Choose a stage as a starting area.",
+                "A random substage of the chosen stage will be picked as the starting area when Stagesanity is enabled.",
+                "Boss stages and stages that can't progress without a progression item are excluded from the substage pool."
             ],
             "type": "Choice",
             "values": {
@@ -34,11 +33,10 @@
             "display_name": "Lexer Fight Unlock",
             "type": "Choice",
             "description": [
-                "Criteria under which Lexer becomes beatable in Stage 6-6.",
-                "You also need to find the Stage 6 Unlock item in order to access Stage 6-6.",
-                "Star Medals: Collect the required number of Star Medals to be able to fight Lexer.",
-                "Bosses: Defeat the required number of Bosses to be able to fight Lexer.",
-                "Spirits: Release the required number of Spirits to be able to fight Lexer."
+                "Criteria under which Stage 6-6 becomes accessible to fight Lexer.",
+                "Star Medals: Collect the required number of Star Medals",
+                "Bosses: Defeat the required number of bosses",
+                "Spirits: Release the required number of spirits"
             ],
             "values": {
                 "Star_Medals":0,
@@ -64,7 +62,7 @@
             "display_name": "Bosses Required",
             "type": "Range",
             "description": [
-                "Number of required Bosses to defeat when Lexer Fight Unlock is set to Bosses."
+                "Number of required bosses to defeat when Lexer Fight Unlock is set to Bosses."
             ],
             "range_start": 1,
             "default": 4,
@@ -75,7 +73,7 @@
             "display_name": "Spirits Required",
             "type": "Range",
             "description": [
-                "Number of required Spirits to be released when Lexer Fight Unlock is set to Spirits."
+                "Number of required spirits to be released when Lexer Fight Unlock is set to Spirits."
             ],
             "range_start": 1,
             "default": 3,
