@@ -142,7 +142,7 @@
   },
   "Stage 6-6": {
     "connects_to": [],
-    "requires": "(|Unlock Stage 6-6| OR |Unlock Stage 6|) AND (({YamlCompare(lexer_fight_unlock = 0)} AND {OptionCount(Star Medal, star_medals_required)}) OR ({YamlCompare(lexer_fight_unlock = 1)} AND {OptionCount(@Boss Token, bosses_required)}) OR ({YamlCompare(lexer_fight_unlock = 2)} AND {OptionCount(@Spirit Token, spirits_required)}))"
+    "requires": "(|Unlock Stage 6-6| OR |Unlock Stage 6|) AND (({YamlCompare(lexer_fight_unlock = 0)} AND {OptionCount(Star Medal, star_medals_required)}) OR ({YamlCompare(lexer_fight_unlock = 1)} AND {OptionCount(@Boss Tokens, bosses_required)}) OR ({YamlCompare(lexer_fight_unlock = 2)} AND {OptionCount(@Spirit Tokens, spirits_required)}))"
   },
   "Stage 6-7": {
     "connects_to": [],
