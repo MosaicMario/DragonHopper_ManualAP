@@ -2,6 +2,6 @@
   "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
   "game": "DragonHopper",
   "creator": "MosaicMario",
-  "filler_item_name": "One Time Unrestricted Magic Use",
+  "filler_item_name": "Nothing",
   "death_link": true
 }

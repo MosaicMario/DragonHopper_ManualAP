@@ -2,14 +2,6 @@
   "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
   "data": [
     {
-      "count": "110",
-      "name": "Star Medal",
-      "category": [
-        "Star Medals"
-      ],
-      "progression_skip_balancing": true
-    },
-    {
       "count": 1,
       "name": "Star Crystal",
       "category": [
@@ -34,124 +26,28 @@
       "progression_skip_balancing": true
     },
     {
-      "count": 1,
-      "name": "Fairy Knight Boss Token",
+      "count": "110",
+      "name": "Star Medal",
       "category": [
-        "Boss Tokens"
+        "Star Medals"
       ],
       "progression_skip_balancing": true
     },
     {
-      "count": 1,
-      "name": "Gita Boss Token",
+      "count": 5,
+      "name": "Boss Medal",
       "category": [
-        "Boss Tokens"
+        "Boss Medals"
       ],
       "progression_skip_balancing": true
     },
     {
-      "count": 1,
-      "name": "Cutter Boss Token",
+      "count": 4,
+      "name": "Spirit Medal",
       "category": [
-        "Boss Tokens"
+        "Spirit Medals"
       ],
       "progression_skip_balancing": true
-    },
-    {
-      "count": 1,
-      "name": "Cold Eye Boss Token",
-      "category": [
-        "Boss Tokens"
-      ],
-      "progression_skip_balancing": true
-    },
-    {
-      "count": 1,
-      "name": "Terror Eyes Boss Token",
-      "category": [
-        "Boss Tokens"
-      ],
-      "progression_skip_balancing": true
-    },
-    {
-      "count": 1,
-      "name": "Lexer Boss Token",
-      "category": [
-        "Boss Tokens"
-      ],
-      "progression_skip_balancing": true
-    },
-    {
-      "count": 1,
-      "name": "King Hades Boss Token",
-      "category": [
-        "Boss Tokens"
-      ],
-      "progression_skip_balancing": true
-    },
-    {
-      "count": 1,
-      "name": "Earth Spirit Token",
-      "category": [
-        "Spirit Tokens"
-      ],
-      "progression_skip_balancing": true
-    },
-    {
-      "count": 1,
-      "name": "Water Spirit Token",
-      "category": [
-        "Spirit Tokens"
-      ],
-      "progression_skip_balancing": true
-    },
-    {
-      "count": 1,
-      "name": "Fire Spirit Token",
-      "category": [
-        "Spirit Tokens"
-      ],
-      "progression_skip_balancing": true
-    },
-    {
-      "count": 1,
-      "name": "Wind Spirit Token",
-      "category": [
-        "Spirit Tokens"
-      ],
-      "progression_skip_balancing": true
-    },
-    {
-      "count": 1,
-      "name": "Earth Dragon",
-      "category": [
-        "Transformations"
-      ],
-      "progression": true
-    },
-    {
-      "count": 1,
-      "name": "Ice Dragon",
-      "category": [
-        "Transformations"
-      ],
-      "progression": true
-    },
-    {
-      "count": 1,
-      "name": "Fire Dragon",
-      "category": [
-        "Transformations"
-      ],
-      "progression": true
-    },
-    {
-      "count": 1,
-      "name": "Wind Dragon",
-      "category": [
-        "Transformations"
-      ],
-      "progression": true
     },
     {
       "count": 1,
@@ -687,9 +583,41 @@
     },
     {
       "count": 1,
+      "name": "Earth Dragon",
+      "category": [
+        "Transformations"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Ice Dragon",
+      "category": [
+        "Transformations"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Fire Dragon",
+      "category": [
+        "Transformations"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Wind Dragon",
+      "category": [
+        "Transformations"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Seline",
       "category": [
-        "Enable Magic Cards"
+        "Magic"
       ],
       "progression": true
     },
@@ -788,6 +716,26 @@
         "Magic Cards"
       ],
       "useful": true
+    },
+    {
+      "count": 52,
+      "name": "Heart",
+      "filler": true
+    },
+    {
+      "count": 52,
+      "name": "Magic Piece",
+      "filler": true
+    },
+    {
+      "count": 22,
+      "name": "Small Heart",
+      "filler": true
+    },
+    {
+      "count": 22,
+      "name": "Small Magic Piece",
+      "filler": true
     }
   ]
 }

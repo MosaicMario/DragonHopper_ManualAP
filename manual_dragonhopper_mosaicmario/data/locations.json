@@ -1,47 +1,38 @@
 {
   "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
   "data": [
-    {
-      "name": "Reveal Starting Stage",
-      "region": "Starting Region",
-      "requires": ""
-    },
-    {
-      "name": "Stage 6-6 - Rescue King",
-      "region": "Stage 6-6",
-      "category": [
-        "Stage 6-6"
-      ],
-      "requires": "|Lexer Boss Token|",
-      "place_item": [
-        "King"
-      ]
-    },
-    {
-      "name": "Stage 6-6 - Rescue Queen",
-      "region": "Stage 6-6",
-      "category": [
-        "Stage 6-6"
-      ],
-      "requires": "|Lexer Boss Token|",
-      "place_item": [
-        "Queen"
-      ]
-    },
-    {
-      "name": "Stage 6-8 - Rescue Diana",
-      "region": "Stage 6-8",
-      "victory": true,
-      "category": [
-        "Stage 6-8"
-      ],
-      "requires": "|King Hades Boss Token|"
-    },
-    {
+        {
       "name": "Stage 0-1 - Star Medal Above Pool Of Water",
       "region": "Stage 0-1",
       "category": [
         "Star Medal",
+        "Stage 0-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 0-1 - Heart Above Pool Of Water",
+      "region": "Stage 0-1",
+      "category": [
+        "Pickup",
+        "Stage 0-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 0-1 - Magic Piece Above Pool Of Water",
+      "region": "Stage 0-1",
+      "category": [
+        "Pickup",
+        "Stage 0-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 0-1 - Goal",
+      "region": "Stage 0-1",
+      "category": [
+        "Goal",
         "Stage 0-1"
       ],
       "requires": ""
@@ -92,6 +83,43 @@
       "requires": ""
     },
     {
+      "name": "Stage 0-2 - Goal",
+      "region": "Stage 0-2",
+      "category": [
+        "Goal",
+        "Stage 0-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 0-3 - Obtain Seline",
+      "region": "Stage 0-3",
+      "category": [
+        "Other",
+        "Stage 0-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 0-3 - Obtain Magic Card",
+      "region": "Stage 0-3",
+      "category": [
+        "Other",
+        "Stage 0-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 0-3 - Goal",
+      "region": "Stage 0-3",
+      "category": [
+        "Goal",
+        "Bosses",
+        "Stage 0-3"
+      ],
+      "requires": ""
+    },
+    {
       "name": "Stage 1-1 - Star Medal On North Platform",
       "region": "Stage 1-1",
       "category": [
@@ -123,6 +151,42 @@
       "region": "Stage 1-1",
       "category": [
         "Star Medal",
+        "Stage 1-1"
+      ],
+      "requires": "|Stage 1-1 Small Key|"
+    },
+    {
+      "name": "Stage 1-1 - Heart Near Center Platform",
+      "region": "Stage 1-1",
+      "category": [
+        "Pickup",
+        "Stage 1-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 1-1 - Magic Piece Near Center Platform",
+      "region": "Stage 1-1",
+      "category": [
+        "Pickup",
+        "Stage 1-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 1-1 - Small Key",
+      "region": "Stage 1-1",
+      "category": [
+        "Key",
+        "Stage 1-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 1-1 - Goal",
+      "region": "Stage 1-1",
+      "category": [
+        "Goal",
         "Stage 1-1"
       ],
       "requires": "|Stage 1-1 Small Key|"
@@ -164,6 +228,51 @@
       "requires": "|Stage 1-2 Small Key|"
     },
     {
+      "name": "Stage 1-2 - Heart North Of Keyhole",
+      "region": "Stage 1-2",
+      "category": [
+        "Pickup",
+        "Stage 1-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 1-2 - Magic Piece South Of Keyhole",
+      "region": "Stage 1-2",
+      "category": [
+        "Pickup",
+        "Stage 1-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 1-2 - Magic Piece North After Button Elevator",
+      "region": "Stage 1-2",
+      "category": [
+        "Pickup",
+        "Stage 1-2"
+      ],
+      "requires": "|Stage 1-2 Small Key|"
+    },
+    {
+      "name": "Stage 1-2 - Small Key",
+      "region": "Stage 1-2",
+      "category": [
+        "Key",
+        "Stage 1-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 1-2 - Goal",
+      "region": "Stage 1-2",
+      "category": [
+        "Goal",
+        "Stage 1-2"
+      ],
+      "requires": "|Stage 1-2 Small Key|"
+    },
+    {
       "name": "Stage 1-3 - Star Medal Left Of Start",
       "region": "Stage 1-3",
       "category": [
@@ -171,6 +280,51 @@
         "Stage 1-3"
       ],
       "requires": ""
+    },
+    {
+      "name": "Stage 1-3 - Heart Near First NPC",
+      "region": "Stage 1-3",
+      "category": [
+        "Pickup",
+        "Stage 1-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 1-3 - Magic Piece Near Big Key Teleporter",
+      "region": "Stage 1-3",
+      "category": [
+        "Pickup",
+        "Stage 1-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 1-3 - Big Key",
+      "region": "Stage 1-3",
+      "category": [
+        "Key",
+        "Stage 1-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 1-3 - Obtain Earth Transformation",
+      "region": "Stage 1-3",
+      "category": [
+        "Spirits",
+        "Stage 1-3"
+      ],
+      "requires": "|Stage 1-3 Big Key|"
+    },
+    {
+      "name": "Stage 1-3 - Goal",
+      "region": "Stage 1-3",
+      "category": [
+        "Goal",
+        "Stage 1-3"
+      ],
+      "requires": "|Stage 1-3 Big Key| AND |Earth Dragon|"
     },
     {
       "name": "Stage 1-4 - Star Medal Near Start",
@@ -200,6 +354,24 @@
       "requires": "|Earth Dragon|"
     },
     {
+      "name": "Stage 1-4 - Heart Below Second Floor",
+      "region": "Stage 1-4",
+      "category": [
+        "Pickup",
+        "Stage 1-4"
+      ],
+      "requires": "|Earth Dragon|"
+    },
+    {
+      "name": "Stage 1-4 - Goal",
+      "region": "Stage 1-4",
+      "category": [
+        "Goal",
+        "Stage 1-4"
+      ],
+      "requires": "|Earth Dragon|"
+    },
+    {
       "region": "Stage 1-5",
       "name": "Stage 1-5 - Star Medal Left Side After Jump Pad",
       "category": [
@@ -214,6 +386,88 @@
       "category": [
         "Star Medal",
         "Stage 1-5"
+      ],
+      "requires": ""
+    },
+    {
+      "region": "Stage 1-5",
+      "name": "Stage 1-5 - Heart South Of Jump Pad",
+      "category": [
+        "Pickup",
+        "Stage 1-5"
+      ],
+      "requires": ""
+    },
+    {
+      "region": "Stage 1-5",
+      "name": "Stage 1-5 - Magic Piece South Of Jump Pad",
+      "category": [
+        "Pickup",
+        "Stage 1-5"
+      ],
+      "requires": ""
+    },
+    {
+      "region": "Stage 1-5",
+      "name": "Stage 1-5 - Heart Left Side After Jump Pad",
+      "category": [
+        "Pickup",
+        "Stage 1-5"
+      ],
+      "requires": ""
+    },
+    {
+      "region": "Stage 1-5",
+      "name": "Stage 1-5 - Magic Piece On Platform Below Key Path",
+      "category": [
+        "Pickup",
+        "Stage 1-5"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 1-5 - Small Key",
+      "region": "Stage 1-5",
+      "category": [
+        "Key",
+        "Stage 1-5"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 1-5 - Goal",
+      "region": "Stage 1-5",
+      "category": [
+        "Goal",
+        "Stage 1-5"
+      ],
+      "requires": "|Stage 1-5 Small Key|"
+    },
+    {
+      "region": "Stage 1-6",
+      "name": "Stage 1-6 - Heart",
+      "category": [
+        "Pickup",
+        "Stage 1-6"
+      ],
+      "requires": ""
+    },
+    {
+      "region": "Stage 1-6",
+      "name": "Stage 1-6 - Magic Piece",
+      "category": [
+        "Pickup",
+        "Stage 1-6"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 1-6 - Goal",
+      "region": "Stage 1-6",
+      "category": [
+        "Goal",
+        "Bosses",
+        "Stage 1-6"
       ],
       "requires": ""
     },
@@ -254,6 +508,51 @@
       "requires": ""
     },
     {
+      "name": "Stage 2-1 - Heart Below Left Moving Platform",
+      "region": "Stage 2-1",
+      "category": [
+        "Pickup",
+        "Stage 2-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-1 - Heart Below Right Moving Platform",
+      "region": "Stage 2-1",
+      "category": [
+        "Pickup",
+        "Stage 2-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-1 - Magic Piece Left Side Of Moving Platforms",
+      "region": "Stage 2-1",
+      "category": [
+        "Pickup",
+        "Stage 2-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-1 - Magic Piece Right Side Of Moving Platforms",
+      "region": "Stage 2-1",
+      "category": [
+        "Pickup",
+        "Stage 2-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-1 - Goal",
+      "region": "Stage 2-1",
+      "category": [
+        "Goal",
+        "Stage 2-1"
+      ],
+      "requires": ""
+    },
+    {
       "name": "Stage 2-2 - Star Medal River Left Side",
       "region": "Stage 2-2",
       "category": [
@@ -276,6 +575,33 @@
       "region": "Stage 2-2",
       "category": [
         "Star Medal",
+        "Stage 2-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-2 - Heart At Top Right Part Of River",
+      "region": "Stage 2-2",
+      "category": [
+        "Pickup",
+        "Stage 2-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-2 - Magic Piece At Bottom Right Part Of River",
+      "region": "Stage 2-2",
+      "category": [
+        "Pickup",
+        "Stage 2-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-2 - Goal",
+      "region": "Stage 2-2",
+      "category": [
+        "Goal",
         "Stage 2-2"
       ],
       "requires": ""
@@ -323,7 +649,43 @@
         "Star Medal",
         "Stage 2-3"
       ],
-      "requires": "(|Water Spirit Token| AND |Ice Dragon|"
+      "requires": "|Stage 2-3 Big Key| AND |Ice Dragon|"
+    },
+    {
+      "name": "Stage 2-3 - Heart Left Of First Jump Pad",
+      "region": "Stage 2-3",
+      "category": [
+        "Pickup",
+        "Stage 2-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-3 - Big Key",
+      "region": "Stage 2-3",
+      "category": [
+        "Key",
+        "Stage 2-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-3 - Obtain Ice Transformation",
+      "region": "Stage 2-3",
+      "category": [
+        "Spirits",
+        "Stage 2-3"
+      ],
+      "requires": "|Stage 2-3 Big Key|"
+    },
+    {
+      "name": "Stage 2-3 - Goal",
+      "region": "Stage 2-3",
+      "category": [
+      "Goal",
+      "Stage 2-3"
+      ],
+      "requires": "|Stage 2-3 Big Key| AND |Ice Dragon|"
     },
     {
       "name": "Stage 2-4 - Star Medal Along Top Path",
@@ -344,7 +706,89 @@
       "requires": ""
     },
     {
-      "name": "Stage 3-1 - Star Medal On Platform Near Start",
+      "name": "Stage 2-4 - Heart Left Of Jump Pad",
+      "region": "Stage 2-4",
+      "category": [
+        "Pickup",
+        "Stage 2-4"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-4 - Heart Right Side Near Goal",
+      "region": "Stage 2-4",
+      "category": [
+        "Pickup",
+        "Stage 2-4"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-4 - Magic Piece Along Bottom Path",
+      "region": "Stage 2-4",
+      "category": [
+        "Pickup",
+        "Stage 2-4"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-4 - Magic Piece Along Top Path",
+      "region": "Stage 2-4",
+      "category": [
+        "Pickup",
+        "Stage 2-4"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-4 - Magic Piece On Vanishing Path",
+      "region": "Stage 2-4",
+      "category": [
+        "Pickup",
+        "Stage 2-4"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-4 - Goal",
+      "region": "Stage 2-4",
+      "category": [
+        "Goal",
+        "Stage 2-4"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-5 - Heart",
+      "region": "Stage 2-5",
+      "category": [
+        "Pickup",
+        "Stage 2-5"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-5 - Magic Piece",
+      "region": "Stage 2-5",
+      "category": [
+        "Pickup",
+        "Stage 2-5"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 2-5 - Goal",
+      "region": "Stage 2-5",
+      "category": [
+        "Goal",
+        "Bosses",
+        "Stage 2-5"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-1 - Star Medal Near Falling Platforms",
       "region": "Stage 3-1",
       "category": [
         "Star Medal",
@@ -369,6 +813,69 @@
         "Stage 3-1"
       ],
       "requires": "|Stage 3-1 Small Key:1|"
+    },
+    {
+      "name": "Stage 3-1 - Heart Near Start",
+      "region": "Stage 3-1",
+      "category": [
+        "Pickup",
+        "Stage 3-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-1 - Heart Near Goal",
+      "region": "Stage 3-1",
+      "category": [
+        "Pickup",
+        "Stage 3-1"
+      ],
+      "requires": "|Stage 3-1 Small Key:2|"
+    },
+    {
+      "name": "Stage 3-1 - Magic Piece Near Falling Platforms",
+      "region": "Stage 3-1",
+      "category": [
+        "Pickup",
+        "Stage 3-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-1 - Magic Piece On Platform Near Jump Pad",
+      "region": "Stage 3-1",
+      "category": [
+        "Pickup",
+        "Stage 3-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-1 - Small Key #1",
+      "region": "Stage 3-1",
+      "category": [
+        "Key",
+        "Stage 3-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-1 - Small Key #2",
+      "region": "Stage 3-1",
+      "category": [
+        "Key",
+        "Stage 3-1"
+      ],
+      "requires": "|Stage 3-1 Small Key:1|"
+    },
+    {
+      "name": "Stage 3-1 - Goal",
+      "region": "Stage 3-1",
+      "category": [
+        "Goal",
+        "Stage 3-1"
+      ],
+      "requires": "|Stage 3-1 Small Key:2|"
     },
     {
       "name": "Stage 3-2 - Star Medal Above Pool Of Water",
@@ -398,6 +905,42 @@
       "requires": ""
     },
     {
+      "name": "Stage 3-2 - Heart At Windmill Platform",
+      "region": "Stage 3-2",
+      "category": [
+        "Pickup",
+        "Stage 3-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-2 - Heart Near Spinning Platforms",
+      "region": "Stage 3-2",
+      "category": [
+        "Pickup",
+        "Stage 3-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-2 - Magic Piece Near Spinning Platforms",
+      "region": "Stage 3-2",
+      "category": [
+        "Pickup",
+        "Stage 3-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-2 - Goal",
+      "region": "Stage 3-2",
+      "category": [
+        "Goal",
+        "Stage 3-2"
+      ],
+      "requires": ""
+    },
+    {
       "name": "Stage 3-3 - Star Medal Near Start",
       "region": "Stage 3-3",
       "category": [
@@ -422,16 +965,97 @@
       "Star Medal",
       "Stage 3-3"
       ],
-      "requires": "|Fire Spirit Token| AND |Fire Dragon|"
+      "requires": "|Stage 3-3 Big Key| AND |Fire Dragon| AND (|Earth Dragon| OR {YamlDisabled(stage3_earthdragon)})"
     },
     {
-      "name": "Stage 3-3 - Star Medal On Platform Near Goal",
+      "name": "Stage 3-3 - Star Medal On Left Platform Near Goal",
       "region": "Stage 3-3",
       "category": [
       "Star Medal",
       "Stage 3-3"
       ],
-      "requires": "|Fire Spirit Token| AND |Fire Dragon| AND |Stage 3-3 Small Key|"
+      "requires": "|Stage 3-3 Big Key| AND |Fire Dragon| AND |Stage 3-3 Small Key| AND (|Earth Dragon| OR {YamlDisabled(stage3_earthdragon)})"
+    },
+    {
+      "name": "Stage 3-3 - Heart Below Below Frozen Button",
+      "region": "Stage 3-3",
+      "category": [
+        "Pickup",
+        "Stage 3-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-3 - Heart On Right Platform Near Goal",
+      "region": "Stage 3-3",
+      "category": [
+      "Pickup",
+      "Stage 3-3"
+      ],
+      "requires": "|Stage 3-3 Big Key| AND |Fire Dragon| AND |Stage 3-3 Small Key| AND (|Earth Dragon| OR {YamlDisabled(stage3_earthdragon)})"
+    },
+    {
+      "name": "Stage 3-3 - Magic Piece Below Earth Spirit Teleporter",
+      "region": "Stage 3-3",
+      "category": [
+        "Pickup",
+        "Stage 3-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-3 - Magic Piece Right Of Earth Spirit Teleporter",
+      "region": "Stage 3-3",
+      "category": [
+        "Pickup",
+        "Stage 3-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-3 - Magic Piece Above Frozen Button",
+      "region": "Stage 3-3",
+      "category": [
+      "Pickup",
+      "Stage 3-3"
+      ],
+      "requires": "|Stage 3-3 Big Key| AND |Fire Dragon| AND (|Earth Dragon| OR {YamlDisabled(stage3_earthdragon)})"
+    },
+    {
+      "name": "Stage 3-3 - Small Key",
+      "region": "Stage 3-3",
+      "category": [
+      "Key",
+      "Stage 3-3"
+      ],
+      "requires": "|Stage 3-3 Big Key| AND |Fire Dragon| AND (|Earth Dragon| OR {YamlDisabled(stage3_earthdragon)})"
+    },
+    {
+      "name": "Stage 3-3 - Big Key",
+      "region": "Stage 3-3",
+      "category": [
+        "Key",
+        "Stage 3-3"
+      ],
+      "requires": "|Earth Dragon| OR {YamlDisabled(stage3_earthdragon)}"
+    },
+    {
+      "name": "Stage 3-3 - Obtain Fire Transformation",
+      "region": "Stage 3-3",
+      "category": [
+        "Spirits",
+        "Stage 3-3"
+      ],
+      "requires": "|Stage 3-3 Big Key|"
+    },
+    {
+      "name": "Stage 3-3 - Goal",
+      "region": "Stage 3-3",
+      "category": [
+      "Goal",
+      "Stage 3-3"
+      ],
+      "requires": "|Stage 3-3 Big Key| AND |Fire Dragon| AND |Stage 3-3 Small Key| AND (|Earth Dragon| OR {YamlDisabled(stage3_earthdragon)})"
     },
     {
       "name": "Stage 3-4 - Star Medal North Of Windmill Platforms",
@@ -443,7 +1067,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 3-4 - Star Medal Above Pool Of Water",
+      "name": "Stage 3-4 - Star Medal Left Side Above Pool Of Water",
       "region": "Stage 3-4",
       "category": [
         "Star Medal",
@@ -459,6 +1083,97 @@
         "Stage 3-4"
       ],
       "requires": "|Fire Dragon|"
+    },
+    {
+      "name": "Stage 3-4 - Heart North Platform After Jump Pad",
+      "region": "Stage 3-4",
+      "category": [
+        "Pickup",
+        "Stage 3-4"
+      ],
+      "requires": "|Fire Dragon|"
+    },
+     {
+      "name": "Stage 3-4 - Heart Below Goal",
+      "region": "Stage 3-4",
+      "category": [
+        "Pickup",
+        "Stage 3-4"
+      ],
+      "requires": "|Fire Dragon|"
+    },
+    {
+      "name": "Stage 3-4 - Magic Piece At Windmill Platforms",
+      "region": "Stage 3-4",
+      "category": [
+        "Pickup",
+        "Stage 3-4"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-4 - Magic Piece East Platform After Jump Pad",
+      "region": "Stage 3-4",
+      "category": [
+        "Pickup",
+        "Stage 3-4"
+      ],
+      "requires": "|Fire Dragon|"
+    },
+    {
+      "name": "Stage 3-4 - Magic Piece West Platform After Jump Pad",
+      "region": "Stage 3-4",
+      "category": [
+        "Pickup",
+        "Stage 3-4"
+      ],
+      "requires": "|Fire Dragon|"
+    },
+    {
+      "name": "Stage 3-4 - Magic Piece Right Side Above Pool Of Water",
+      "region": "Stage 3-4",
+      "category": [
+        "Pickup",
+        "Stage 3-4"
+      ],
+      "requires": "|Fire Dragon|"
+    },
+    {
+      "name": "Stage 3-4 - Goal",
+      "region": "Stage 3-4",
+      "category": [
+        "Goal",
+        "Stage 3-4"
+      ],
+      "requires": "|Fire Dragon|"
+    },
+    {
+      "name": "Stage 3-5 - Heart",
+      "region": "Stage 3-5",
+      "category": [
+        "Pickup",
+        "Stage 3-5"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-5 - Magic Piece",
+      "region": "Stage 3-5",
+      "category": [
+        "Pickup",
+        "Stage 3-5"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 3-5 - Goal",
+      "region": "Stage 3-5",
+      "category": [
+        "Goal",
+        "Bosses",
+        "Stage 3-5"
+      ],
+      "requires": ""
     },
     {
       "name": "Stage 4-1 - Star Medal Above Big Cloud North Of Start",
@@ -479,7 +1194,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 4-1 - Star Medal On Small Pac-Man Shaped Cloud",
+      "name": "Stage 4-1 - Star Medal Along Main Path",
       "region": "Stage 4-1",
       "category": [
         "Star Medal",
@@ -501,6 +1216,51 @@
       "region": "Stage 4-1",
       "category": [
         "Star Medal",
+        "Stage 4-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-1 - Heart Above Big Cloud North Of Start",
+      "region": "Stage 4-1",
+      "category": [
+        "Pickup",
+        "Stage 4-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-1 - Heart West After Jump Pad",
+      "region": "Stage 4-1",
+      "category": [
+        "Pickup",
+        "Stage 4-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-1 - Magic Piece On Cloud Along Top Path",
+      "region": "Stage 4-1",
+      "category": [
+        "Pickup",
+        "Stage 4-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-1 - Magic Piece South After Jump Pad",
+      "region": "Stage 4-1",
+      "category": [
+        "Pickup",
+        "Stage 4-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-1 - Goal",
+      "region": "Stage 4-1",
+      "category": [
+        "Goal",
         "Stage 4-1"
       ],
       "requires": ""
@@ -530,13 +1290,58 @@
         "Star Medal",
         "Stage 4-2"
       ],
-      "requires": "|Fire Dragon| OR (|Seline| AND |Flashback Card|)"
+      "requires": "|Fire Dragon| OR (|Seline| AND |Flashback Card|) OR {YamlEnabled(stage4_thawedjumppads)}"
     },
     {
       "name": "Stage 4-2 - Star Meadal Near Goal",
       "region": "Stage 4-2",
       "category": [
         "Star Medal",
+        "Stage 4-2"
+      ],
+      "requires": "|Stage 4-2 Small Key|"
+    },
+    {
+      "name": "Stage 4-2 - Heart Right Side After Cloud Elevator",
+      "region": "Stage 4-2",
+      "category": [
+        "Pickup",
+        "Stage 4-2"
+      ],
+      "requires": "|Stage 4-2 Small Key|"
+    },
+    {
+      "name": "Stage 4-2 - Magic Piece Left Of Small Key Teleporter",
+      "region": "Stage 4-2",
+      "category": [
+        "Pickup",
+        "Stage 4-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-2 - Magic Piece Right Side On Cloud",
+      "region": "Stage 4-2",
+      "category": [
+        "Pickup",
+        "Stage 4-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-2 - Small Key",
+      "region": "Stage 4-2",
+      "category": [
+        "Key",
+        "Stage 4-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-2 - Goal",
+      "region": "Stage 4-2",
+      "category": [
+        "Goal",
         "Stage 4-2"
       ],
       "requires": "|Stage 4-2 Small Key|"
@@ -578,6 +1383,60 @@
       "requires": ""
     },
     {
+      "name": "Stage 4-3 - Heart South After Jump Pad",
+      "region": "Stage 4-3",
+      "category": [
+        "Pickup",
+        "Stage 4-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-3 - Magic Piece Right Of Wind Spirit Teleporter",
+      "region": "Stage 4-3",
+      "category": [
+        "Pickup",
+        "Stage 4-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-3 - Magic Piece Above Tornado Cloud",
+      "region": "Stage 4-3",
+      "category": [
+      "Pickup",
+      "Stage 4-3"
+      ],
+      "requires": "|Stage 4-3 Big Key| AND |Wind Dragon|"
+    },
+    {
+      "name": "Stage 4-3 - Big Key",
+      "region": "Stage 4-3",
+      "category": [
+        "Key",
+        "Stage 4-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-3 - Obtain Wind Transformation",
+      "region": "Stage 4-3",
+      "category": [
+        "Spirits",
+        "Stage 4-3"
+      ],
+      "requires": "|Stage 4-3 Big Key|"
+    },
+    {
+      "name": "Stage 4-3 - Goal",
+      "region": "Stage 4-3",
+      "category": [
+      "Goal",
+      "Stage 4-3"
+      ],
+      "requires": "|Stage 4-3 Big Key| AND |Wind Dragon|"
+    },
+    {
       "name": "Stage 4-4 - Star Medal Along Top Path",
       "region": "Stage 4-4",
       "category": [
@@ -593,7 +1452,80 @@
         "Star Medal",
         "Stage 4-4"
       ],
-      "requires": "|Wind Dragon| AND (|Fire Dragon| OR (|Seline| AND |Flashback Card|))"
+      "requires": "|Wind Dragon| AND (|Fire Dragon| OR (|Seline| AND |Flashback Card|) OR {YamlEnabled(stage4_thawedjumppads)})"
+    },
+    {
+      "name": "Stage 4-4 - Heart Near Start",
+      "region": "Stage 4-4",
+      "category": [
+        "Pickup",
+        "Stage 4-4"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-4 - Heart Right Of Trading Post Teleporter",
+      "region": "Stage 4-4",
+      "category": [
+        "Pickup",
+        "Stage 4-4"
+      ],
+      "requires": "|Wind Dragon|"
+    },
+    {
+      "name": "Stage 4-4 - Magic Piece Along Top Path",
+      "region": "Stage 4-4",
+      "category": [
+        "Pickup",
+        "Stage 4-4"
+      ],
+      "requires": "|Wind Dragon|"
+    },
+    {
+      "name": "Stage 4-4 - Magic Piece Near Goal",
+      "region": "Stage 4-4",
+      "category": [
+        "Pickup",
+        "Stage 4-4"
+      ],
+      "requires": "|Wind Dragon|"
+    },
+    {
+      "name": "Stage 4-4 - Goal",
+      "region": "Stage 4-4",
+      "category": [
+        "Goal",
+        "Stage 4-4"
+      ],
+      "requires": "|Wind Dragon|"
+    },
+    {
+      "name": "Stage 4-5 - Heart",
+      "region": "Stage 4-5",
+      "category": [
+        "Pickup",
+        "Stage 4-5"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-5 - Magic Piece",
+      "region": "Stage 4-5",
+      "category": [
+        "Pickup",
+        "Stage 4-5"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 4-5 - Goal",
+      "region": "Stage 4-5",
+      "category": [
+        "Goal",
+        "Bosses",
+        "Stage 4-5"
+      ],
+      "requires": ""
     },
     {
       "name": "Stage 5-1 - Star Medal Left Of Moving Star Platform",
@@ -641,6 +1573,51 @@
       "requires": ""
     },
     {
+      "name": "Stage 5-1 - Heart Left Star Lift Near Start",
+      "region": "Stage 5-1",
+      "category": [
+        "Pickup",
+        "Stage 5-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-1 - Heart Right Star Lift Near Start",
+      "region": "Stage 5-1",
+      "category": [
+        "Pickup",
+        "Stage 5-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-1 - Magic Piece Right Of Moving Star Platform",
+      "region": "Stage 5-1",
+      "category": [
+        "Pickup",
+        "Stage 5-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-1 - Magic Piece Right Of Goal",
+      "region": "Stage 5-1",
+      "category": [
+        "Pickup",
+        "Stage 5-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-1 - Goal",
+      "region": "Stage 5-1",
+      "category": [
+        "Goal",
+        "Stage 5-1"
+      ],
+      "requires": ""
+    },
+    {
       "name": "Stage 5-2 - Star Medal Above Start",
       "region": "Stage 5-2",
       "category": [
@@ -663,6 +1640,33 @@
       "region": "Stage 5-2",
       "category": [
         "Star Medal",
+        "Stage 5-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-2 - Heart On Bottom Path Right Side",
+      "region": "Stage 5-2",
+      "category": [
+        "Pickup",
+        "Stage 5-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-2 - Magic Piece Along Top Left Path",
+      "region": "Stage 5-2",
+      "category": [
+        "Pickup",
+        "Stage 5-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-2 - Goal",
+      "region": "Stage 5-2",
+      "category": [
+        "Goal",
         "Stage 5-2"
       ],
       "requires": ""
@@ -695,6 +1699,51 @@
       "requires": "|Stage 5-3 Small Key:2|"
     },
     {
+      "name": "Stage 5-3 - Heart Right Of First Keyhole",
+      "region": "Stage 5-3",
+      "category": [
+        "Pickup",
+        "Stage 5-3"
+      ],
+      "requires": "|Stage 5-3 Small Key:1|"
+    },
+    {
+      "name": "Stage 5-3 - Magic Piece Near Goal",
+      "region": "Stage 5-3",
+      "category": [
+        "Pickup",
+        "Stage 5-3"
+      ],
+      "requires": "|Stage 5-3 Small Key:2|"
+    },
+    {
+      "name": "Stage 5-3 - Small Key #1",
+      "region": "Stage 5-3",
+      "category": [
+        "Key",
+        "Stage 5-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-3 - Small Key #2",
+      "region": "Stage 5-3",
+      "category": [
+        "Key",
+        "Stage 5-3"
+      ],
+      "requires": "|Stage 5-3 Small Key:1|"
+    },
+    {
+      "name": "Stage 5-3 - Goal",
+      "region": "Stage 5-3",
+      "category": [
+        "Goal",
+        "Stage 5-3"
+      ],
+      "requires": "|Stage 5-3 Small Key:2|"
+    },
+    {
       "name": "Stage 5-4 - Star Medal On Vanishing Path Near Start",
       "region": "Stage 5-4",
       "category": [
@@ -721,11 +1770,56 @@
       ],
       "requires": ""
     },
-     {
+    {
+      "name": "Stage 5-4 - Heart Along Small Platforms",
+      "region": "Stage 5-4",
+      "category": [
+        "Pickup",
+        "Stage 5-4"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-4 - Magic Piece Right Side After Vanishing Path",
+      "region": "Stage 5-4",
+      "category": [
+        "Pickup",
+        "Stage 5-4"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-4 - Goal",
+      "region": "Stage 5-4",
+      "category": [
+        "Goal",
+        "Stage 5-4"
+      ],
+      "requires": ""
+    },
+    {
       "name": "Stage 5-5 - Star Medal Above Right Side",
       "region": "Stage 5-5",
       "category": [
         "Star Medal",
+        "Stage 5-5"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-5 - Obtain Star Crystal",
+      "region": "Stage 5-5",
+      "category": [
+        "Other",
+        "Stage 5-5"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 5-5 - Goal",
+      "region": "Stage 5-5",
+      "category": [
+        "Goal",
         "Stage 5-5"
       ],
       "requires": ""
@@ -767,6 +1861,132 @@
       "requires": ""
     },
     {
+      "name": "Stage 6-1 - Heart On Platform Near Goal",
+      "region": "Stage 6-1",
+      "category": [
+        "Pickup",
+        "Stage 6-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-1 - Magic Piece On Platform Near Pool Of Water",
+      "region": "Stage 6-1",
+      "category": [
+        "Pickup",
+        "Stage 6-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-1 - Small Magic Piece On Clouds #1",
+      "region": "Stage 6-1",
+      "category": [
+        "Pickup",
+        "Stage 6-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-1 - Small Magic Piece On Clouds #2",
+      "region": "Stage 6-1",
+      "category": [
+        "Pickup",
+        "Stage 6-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-1 - Small Magic Piece On Clouds #3",
+      "region": "Stage 6-1",
+      "category": [
+        "Pickup",
+        "Stage 6-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-1 - Small Magic Piece On Clouds #4",
+      "region": "Stage 6-1",
+      "category": [
+        "Pickup",
+        "Stage 6-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-1 - Small Magic Piece On Clouds #5",
+      "region": "Stage 6-1",
+      "category": [
+        "Pickup",
+        "Stage 6-1"
+      ],
+      "requires": ""
+    },
+        {
+      "name": "Stage 6-1 - Small Magic Piece On Clouds #6",
+      "region": "Stage 6-1",
+      "category": [
+        "Pickup",
+        "Stage 6-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-1 - Small Magic Piece On Clouds #7",
+      "region": "Stage 6-1",
+      "category": [
+        "Pickup",
+        "Stage 6-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-1 - Small Magic Piece On Clouds #8",
+      "region": "Stage 6-1",
+      "category": [
+        "Pickup",
+        "Stage 6-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-1 - Small Magic Piece On Clouds #9",
+      "region": "Stage 6-1",
+      "category": [
+        "Pickup",
+        "Stage 6-1"
+      ],
+      "requires": ""
+    },
+        {
+      "name": "Stage 6-1 - Small Magic Piece On Clouds #10",
+      "region": "Stage 6-1",
+      "category": [
+        "Pickup",
+        "Stage 6-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-1 - Small Magic Piece On Clouds #11",
+      "region": "Stage 6-1",
+      "category": [
+        "Pickup",
+        "Stage 6-1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-1 - Goal",
+      "region": "Stage 6-1",
+      "category": [
+        "Goal",
+        "Stage 6-1"
+      ],
+      "requires": ""
+    },
+    {
       "name": "Stage 6-2 - Star Medal Before Moving Platforms Towards Goal #1",
       "region": "Stage 6-2",
       "category": [
@@ -794,6 +2014,24 @@
       "requires": ""
     },
     {
+      "name": "Stage 6-2 - Magic Piece Before Vanishing Platforms",
+      "region": "Stage 6-2",
+      "category": [
+        "Pickup",
+        "Stage 6-2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-2 - Goal",
+      "region": "Stage 6-2",
+      "category": [
+        "Goal",
+        "Stage 6-2"
+      ],
+      "requires": ""
+    },
+    {
       "name": "Stage 6-3 - Star Medal Near Keyhole",
       "region": "Stage 6-3",
       "category": [
@@ -812,13 +2050,76 @@
       "requires": "|Stage 6-3 Small Key|"
     },
     {
-      "name": "Stage 6-3 - Star Medal Near Rotating Platforms",
+      "name": "Stage 6-3 - Star Medal Top Left Corner At Rotating Platforms",
       "region": "Stage 6-3",
       "category": [
         "Star Medal",
         "Stage 6-3"
       ],
       "requires": "|Stage 6-3 Small Key:1|"
+    },
+    {
+      "name": "Stage 6-3 - Heart Top Right Corner At Rotating Platforms",
+      "region": "Stage 6-3",
+      "category": [
+        "Pickup",
+        "Stage 6-3"
+      ],
+      "requires": "|Stage 6-3 Small Key:1|"
+    },
+    {
+      "name": "Stage 6-3 - Heart Bottom Left Corner At Rotating Platforms",
+      "region": "Stage 6-3",
+      "category": [
+        "Pickup",
+        "Stage 6-3"
+      ],
+      "requires": "|Stage 6-3 Small Key:1|"
+    },
+    {
+      "name": "Stage 6-3 - Magic Piece At Spinning Platforms",
+      "region": "Stage 6-3",
+      "category": [
+        "Pickup",
+        "Stage 6-3"
+      ],
+      "requires": "|Stage 6-3 Small Key|"
+    },
+    {
+      "name": "Stage 6-3 - Magic Piece Bottom Right Corner At Rotating Platforms",
+      "region": "Stage 6-3",
+      "category": [
+        "Pickup",
+        "Stage 6-3"
+      ],
+      "requires": "|Stage 6-3 Small Key:1|"
+    },
+    {
+      "name": "Stage 6-3 - Small Key #1",
+      "region": "Stage 6-3",
+      "category": [
+        "Key",
+        "Stage 6-3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-3 - Small Key #2",
+      "region": "Stage 6-3",
+      "category": [
+        "Key",
+        "Stage 6-3"
+      ],
+      "requires": "|Stage 6-3 Small Key:1|"
+    },
+    {
+      "name": "Stage 6-3 - Goal",
+      "region": "Stage 6-3",
+      "category": [
+        "Goal",
+        "Stage 6-3"
+      ],
+      "requires": "|Stage 6-3 Small Key:2|"
     },
     {
       "name": "Stage 6-4 - Star Medal Below Start",
@@ -846,6 +2147,340 @@
         "Stage 6-4"
       ],
       "requires": ""
+    },
+    {
+      "name": "Stage 6-4 - Heart On Center Platform Top Floor",
+      "region": "Stage 6-4",
+      "category": [
+        "Pickup",
+        "Stage 6-4"
+      ],
+      "requires": "|Stage 6-4 Small Key:1|"
+    },
+    {
+      "name": "Stage 6-4 - Magic Piece At Start Of Maze",
+      "region": "Stage 6-4",
+      "category": [
+        "Pickup",
+        "Stage 6-4"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-4 - Magic Piece On North Platform Top Floor",
+      "region": "Stage 6-4",
+      "category": [
+        "Pickup",
+        "Stage 6-4"
+      ],
+      "requires": "|Stage 6-4 Small Key:1|"
+    },
+    {
+      "name": "Stage 6-4 - Magic Piece On South-West Platform Top Floor",
+      "region": "Stage 6-4",
+      "category": [
+        "Pickup",
+        "Stage 6-4"
+      ],
+      "requires": "|Stage 6-4 Small Key:1|"
+    },
+    {
+      "name": "Stage 6-4 - Small Key #1",
+      "region": "Stage 6-4",
+      "category": [
+        "Key",
+        "Stage 6-4"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-4 - Small Key #2",
+      "region": "Stage 6-4",
+      "category": [
+        "Key",
+        "Stage 6-4"
+      ],
+      "requires": "|Stage 6-4 Small Key:1|"
+    },
+    {
+      "name": "Stage 6-4 - Goal",
+      "region": "Stage 6-4",
+      "category": [
+        "Goal",
+        "Stage 6-4"
+      ],
+      "requires": "|Stage 6-4 Small Key:2|"
+    },
+    {
+      "name": "Stage 6-5 - Goal",
+      "region": "Stage 6-5",
+      "category": [
+        "Goal",
+        "Stage 6-5"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-6 - Heart",
+      "region": "Stage 6-6",
+      "category": [
+        "Pickup",
+        "Stage 6-6"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-6 - Magic Piece",
+      "region": "Stage 6-6",
+      "category": [
+        "Pickup",
+        "Stage 6-6"
+      ],
+      "requires": ""
+    },
+        {
+      "name": "Stage 6-6 - Rescue King",
+      "region": "Stage 6-6",
+      "category": [
+        "Stage 6-6",
+        "Win Conditions"
+      ],
+      "requires": "({YamlCompare(lexer_fight_unlock = 0)} AND {OptionCount(Star Medal, star_medals_required)}) OR ({YamlCompare(lexer_fight_unlock = 1)} AND {OptionCount(Boss Medal, bosses_required)}) OR ({YamlCompare(lexer_fight_unlock = 2)} AND {OptionCount(Spirit Medal, spirits_required)})"
+    },
+    {
+      "name": "Stage 6-6 - Rescue Queen",
+      "region": "Stage 6-6",
+      "category": [
+        "Stage 6-6",
+        "Win Conditions"
+      ],
+      "requires": "({YamlCompare(lexer_fight_unlock = 0)} AND {OptionCount(Star Medal, star_medals_required)}) OR ({YamlCompare(lexer_fight_unlock = 1)} AND {OptionCount(Boss Medal, bosses_required)}) OR ({YamlCompare(lexer_fight_unlock = 2)} AND {OptionCount(Spirit Medal, spirits_required)})"
+    },
+    {
+      "name": "Stage 6-6 - Goal",
+      "region": "Stage 6-6",
+      "category": [
+        "Goal",
+        "Stage 6-6"
+      ],
+      "requires": "({YamlCompare(lexer_fight_unlock = 0)} AND {OptionCount(Star Medal, star_medals_required)}) OR ({YamlCompare(lexer_fight_unlock = 1)} AND {OptionCount(Boss Medal, bosses_required)}) OR ({YamlCompare(lexer_fight_unlock = 2)} AND {OptionCount(Spirit Medal, spirits_required)})"
+    },
+    {
+      "name": "Stage 6-7 - Small Key",
+      "region": "Stage 6-7",
+      "category": [
+        "Key",
+        "Stage 6-7"
+      ],
+      "requires": "|Fire Dragon|"
+    },
+    {
+      "name": "Stage 6-7 - Big Key",
+      "region": "Stage 6-7",
+      "category": [
+        "Key",
+        "Stage 6-7"
+      ],
+      "requires": "|Fire Dragon| AND |Stage 6-7 Small Key|"
+    },
+    {
+      "name": "Stage 6-7 - Heart North Path Right Side",
+      "region": "Stage 6-7",
+      "category": [
+        "Pickup",
+        "Stage 6-7"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-7 - Heart South Path Right Side",
+      "region": "Stage 6-7",
+      "category": [
+        "Pickup",
+        "Stage 6-7"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-7 - Heart South Path Below Teleporter Path",
+      "region": "Stage 6-7",
+      "category": [
+        "Pickup",
+        "Stage 6-7"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-7 - Magic Piece North Path Left Side",
+      "region": "Stage 6-7",
+      "category": [
+        "Pickup",
+        "Stage 6-7"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-7 - Magic Piece North Path Below Teleporter",
+      "region": "Stage 6-7",
+      "category": [
+        "Pickup",
+        "Stage 6-7"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-7 - Magic Piece South Path Left Side",
+      "region": "Stage 6-7",
+      "category": [
+        "Pickup",
+        "Stage 6-7"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-7 - Small Heart North Path Left Side #1",
+      "region": "Stage 6-7",
+      "category": [
+        "Pickup",
+        "Stage 6-7"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-7 - Small Heart North Path Left Side #2",
+      "region": "Stage 6-7",
+      "category": [
+        "Pickup",
+        "Stage 6-7"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-7 - Small Heart North Path Right Side",
+      "region": "Stage 6-7",
+      "category": [
+        "Pickup",
+        "Stage 6-7"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-7 - Small Heart South Path Left Side #1",
+      "region": "Stage 6-7",
+      "category": [
+        "Pickup",
+        "Stage 6-7"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-7 - Small Heart South Path Left Side #2",
+      "region": "Stage 6-7",
+      "category": [
+        "Pickup",
+        "Stage 6-7"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-7 - Small Heart South Path Right Side",
+      "region": "Stage 6-7",
+      "category": [
+        "Pickup",
+        "Stage 6-7"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-7 - Small Magic Piece North Path Left Side",
+      "region": "Stage 6-7",
+      "category": [
+        "Pickup",
+        "Stage 6-7"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-7 - Small Magic Piece North Path Right Side #1",
+      "region": "Stage 6-7",
+      "category": [
+        "Pickup",
+        "Stage 6-7"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-7 - Small Magic Piece North Path Right Side #2",
+      "region": "Stage 6-7",
+      "category": [
+        "Pickup",
+        "Stage 6-7"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-7 - Small Magic Piece South Path Left Side",
+      "region": "Stage 6-7",
+      "category": [
+        "Pickup",
+        "Stage 6-7"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-7 - Small Magic Piece South Path Right Side #1",
+      "region": "Stage 6-7",
+      "category": [
+        "Pickup",
+        "Stage 6-7"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-7 - Small Magic Piece South Path Right Side #2",
+      "region": "Stage 6-7",
+      "category": [
+        "Pickup",
+        "Stage 6-7"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Stage 6-7 - Goal",
+      "region": "Stage 6-7",
+      "category": [
+        "Goal",
+        "Stage 6-7"
+      ],
+      "requires": "|Fire Dragon| AND |Stage 6-7 Small Key| AND |Stage 6-7 Big Key|"
+    },
+    {
+      "name": "Stage 6-8 - Heart",
+      "region": "Stage 6-8",
+      "category": [
+        "Pickup",
+        "Stage 6-8"
+      ],
+      "requires": "|King| AND |Queen|"
+    },
+    {
+      "name": "Stage 6-8 - Magic Piece",
+      "region": "Stage 6-8",
+      "category": [
+        "Pickup",
+        "Stage 6-8"
+      ],
+      "requires": "|King| AND |Queen|"
+    },
+    {
+      "name": "Stage 6-8 - Rescue Diana",
+      "region": "Stage 6-8",
+      "victory": true,
+      "category": [
+        "Stage 6-8",
+        "Win Conditions"
+      ],
+      "requires": "|King| AND |Queen| AND |Star Crystal|"
     },
     {
       "name": "Bonus Stage Flap Flap - Get 1 Medal",
@@ -1028,698 +2663,6 @@
       "requires": ""
     },
     {
-      "name": "Stage 1-1 - Small Key",
-      "region": "Stage 1-1",
-      "category": [
-        "Small Key",
-        "Stage 1-1"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "Stage 1-2 - Small Key",
-      "region": "Stage 1-2",
-      "category": [
-        "Small Key",
-        "Stage 1-2"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "Stage 1-5 - Small Key",
-      "region": "Stage 1-5",
-      "category": [
-        "Small Key",
-        "Stage 1-5"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "Stage 3-1 - Small Key #1",
-      "region": "Stage 3-1",
-      "category": [
-        "Small Key",
-        "Stage 3-1"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "Stage 3-1 - Small Key #2",
-      "region": "Stage 3-1",
-      "category": [
-        "Small Key",
-        "Stage 3-1"
-      ],
-      "requires": "|Stage 3-1 Small Key:1|"
-    },
-    {
-      "name": "Stage 3-3 - Small Key",
-      "region": "Stage 3-3",
-      "category": [
-      "Small Key",
-      "Stage 3-3"
-      ],
-      "requires": "|Fire Spirit Token| AND |Fire Dragon|"
-    },
-    {
-      "name": "Stage 4-2 - Small Key",
-      "region": "Stage 4-2",
-      "category": [
-        "Small Key",
-        "Stage 4-2"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "Stage 5-3 - Small Key #1",
-      "region": "Stage 5-3",
-      "category": [
-        "Small Key",
-        "Stage 5-3"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "Stage 5-3 - Small Key #2",
-      "region": "Stage 5-3",
-      "category": [
-        "Small Key",
-        "Stage 5-3"
-      ],
-      "requires": "|Stage 5-3 Small Key:1|"
-    },
-    {
-      "name": "Stage 6-3 - Small Key #1",
-      "region": "Stage 6-3",
-      "category": [
-        "Small Key",
-        "Stage 6-3"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "Stage 6-3 - Small Key #2",
-      "region": "Stage 6-3",
-      "category": [
-        "Small Key",
-        "Stage 6-3"
-      ],
-      "requires": "|Stage 6-3 Small Key:1|"
-    },
-    {
-      "name": "Stage 6-4 - Small Key #1",
-      "region": "Stage 6-4",
-      "category": [
-        "Small Key",
-        "Stage 6-4"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "Stage 6-4 - Small Key #2",
-      "region": "Stage 6-4",
-      "category": [
-        "Small Key",
-        "Stage 6-4"
-      ],
-      "requires": "|Stage 6-4 Small Key:1|"
-    },
-    {
-      "name": "Stage 6-7 - Small Key",
-      "region": "Stage 6-7",
-      "category": [
-        "Small Key",
-        "Stage 6-7"
-      ],
-      "requires": "|Fire Dragon|"
-    },
-    {
-      "name": "Stage 1-3 - Big Key",
-      "region": "Stage 1-3",
-      "category": [
-        "Big Key",
-        "Stage 1-3"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "Stage 2-3 - Big Key",
-      "region": "Stage 2-3",
-      "category": [
-        "Big Key",
-        "Stage 2-3"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "Stage 3-3 - Big Key",
-      "region": "Stage 3-3",
-      "category": [
-        "Big Key",
-        "Stage 3-3"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "Stage 4-3 - Big Key",
-      "region": "Stage 4-3",
-      "category": [
-        "Big Key",
-        "Stage 4-3"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "Stage 6-7 - Big Key",
-      "region": "Stage 6-7",
-      "category": [
-        "Big Key",
-        "Stage 6-7"
-      ],
-      "requires": "|Fire Dragon| AND |Stage 6-7 Small Key|"
-    },
-    {
-      "name": "Stage 0-1 - Goal",
-      "region": "Stage 0-1",
-      "category": [
-        "Goal",
-        "Stage 0-1"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "Stage 0-2 - Goal",
-      "region": "Stage 0-2",
-      "category": [
-        "Goal",
-        "Stage 0-2"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "Stage 0-3 - Goal",
-      "region": "Stage 0-3",
-      "category": [
-        "Goal",
-        "Stage 0-3"
-      ],
-      "requires": "|Fairy Knight Boss Token|"
-    },
-    {
-      "name": "Stage 1-1 - Goal",
-      "region": "Stage 1-1",
-      "category": [
-        "Goal",
-        "Stage 1-1"
-      ],
-      "requires": "|Stage 1-1 Small Key|"
-    },
-    {
-      "name": "Stage 1-2 - Goal",
-      "region": "Stage 1-2",
-      "category": [
-        "Goal",
-        "Stage 1-2"
-      ],
-      "requires": "|Stage 1-2 Small Key|"
-    },
-    {
-      "name": "Stage 1-3 - Goal",
-      "region": "Stage 1-3",
-      "category": [
-        "Goal",
-        "Stage 1-3"
-      ],
-      "requires": "|Earth Spirit Token| AND |Earth Dragon|"
-    },
-    {
-      "name": "Stage 1-4 - Goal",
-      "region": "Stage 1-4",
-      "category": [
-        "Goal",
-        "Stage 1-4"
-      ],
-      "requires": "|Earth Dragon|"
-    },
-    {
-      "name": "Stage 1-5 - Goal",
-      "region": "Stage 1-5",
-      "category": [
-        "Goal",
-        "Stage 1-5"
-      ],
-      "requires": "|Stage 1-5 Small Key|"
-    },
-    {
-      "name": "Stage 1-6 - Goal",
-      "region": "Stage 1-6",
-      "category": [
-        "Goal",
-        "Stage 1-6"
-      ],
-      "requires": "|Gita Boss Token|"
-    },
-    {
-      "name": "Stage 2-1 - Goal",
-      "region": "Stage 2-1",
-      "category": [
-        "Goal",
-        "Stage 2-1"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "Stage 2-2 - Goal",
-      "region": "Stage 2-2",
-      "category": [
-        "Goal",
-        "Stage 2-2"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "Stage 2-3 - Goal",
-      "region": "Stage 2-3",
-      "category": [
-      "Goal",
-      "Stage 2-3"
-      ],
-      "requires": "|Water Spirit Token| AND |Ice Dragon|"
-    },
-    {
-      "name": "Stage 2-4 - Goal",
-      "region": "Stage 2-4",
-      "category": [
-        "Goal",
-        "Stage 2-4"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "Stage 2-5 - Goal",
-      "region": "Stage 2-5",
-      "category": [
-        "Goal",
-        "Stage 2-5"
-      ],
-      "requires": "|Cutter Boss Token|"
-    },
-    {
-      "name": "Stage 3-1 - Goal",
-      "region": "Stage 3-1",
-      "category": [
-        "Goal",
-        "Stage 3-1"
-      ],
-      "requires": "|Stage 3-1 Small Key:2|"
-    },
-    {
-      "name": "Stage 3-2 - Goal",
-      "region": "Stage 3-2",
-      "category": [
-        "Goal",
-        "Stage 3-2"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "Stage 3-3 - Goal",
-      "region": "Stage 3-3",
-      "category": [
-      "Goal",
-      "Stage 3-3"
-      ],
-      "requires": "|Fire Spirit Token| AND |Fire Dragon| AND |Stage 3-3 Small Key|"
-    },
-    {
-      "name": "Stage 3-4 - Goal",
-      "region": "Stage 3-4",
-      "category": [
-        "Goal",
-        "Stage 3-4"
-      ],
-      "requires": "|Fire Dragon|"
-    },
-    {
-      "name": "Stage 3-5 - Goal",
-      "region": "Stage 3-5",
-      "category": [
-        "Goal",
-        "Stage 3-5"
-      ],
-      "requires": "|Cold Eye Boss Token|"
-    },
-    {
-      "name": "Stage 4-1 - Goal",
-      "region": "Stage 4-1",
-      "category": [
-        "Goal",
-        "Stage 4-1"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "Stage 4-2 - Goal",
-      "region": "Stage 4-2",
-      "category": [
-        "Goal",
-        "Stage 4-2"
-      ],
-      "requires": "|Stage 4-2 Small Key|"
-    },
-    {
-      "name": "Stage 4-3 - Goal",
-      "region": "Stage 4-3",
-      "category": [
-      "Goal",
-      "Stage 4-3"
-      ],
-      "requires": "|Wind Spirit Token| AND |Wind Dragon|"
-    },
-    {
-      "name": "Stage 4-4 - Goal",
-      "region": "Stage 4-4",
-      "category": [
-        "Goal",
-        "Stage 4-4"
-      ],
-      "requires": "|Wind Dragon|"
-    },
-    {
-      "name": "Stage 4-5 - Goal",
-      "region": "Stage 4-5",
-      "category": [
-        "Goal",
-        "Stage 4-5"
-      ],
-      "requires": "|Terror Eyes Boss Token|"
-    },
-    {
-      "name": "Stage 5-1 - Goal",
-      "region": "Stage 5-1",
-      "category": [
-        "Goal",
-        "Stage 5-1"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "Stage 5-2 - Goal",
-      "region": "Stage 5-2",
-      "category": [
-        "Goal",
-        "Stage 5-2"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "Stage 5-3 - Goal",
-      "region": "Stage 5-3",
-      "category": [
-        "Goal",
-        "Stage 5-3"
-      ],
-      "requires": "|Stage 5-3 Small Key:2|"
-    },
-    {
-      "name": "Stage 5-4 - Goal",
-      "region": "Stage 5-4",
-      "category": [
-        "Goal",
-        "Stage 5-4"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "Stage 5-5 - Goal",
-      "region": "Stage 5-5",
-      "category": [
-        "Goal",
-        "Stage 5-5"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "Stage 6-1 - Goal",
-      "region": "Stage 6-1",
-      "category": [
-        "Goal",
-        "Stage 6-1"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "Stage 6-2 - Goal",
-      "region": "Stage 6-2",
-      "category": [
-        "Goal",
-        "Stage 6-2"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "Stage 6-3 - Goal",
-      "region": "Stage 6-3",
-      "category": [
-        "Goal",
-        "Stage 6-3"
-      ],
-      "requires": "|Stage 6-3 Small Key:2|"
-    },
-    {
-      "name": "Stage 6-4 - Goal",
-      "region": "Stage 6-4",
-      "category": [
-        "Goal",
-        "Stage 6-4"
-      ],
-      "requires": "|Stage 6-4 Small Key:2|"
-    },
-    {
-      "name": "Stage 6-5 - Goal",
-      "region": "Stage 6-5",
-      "category": [
-        "Goal",
-        "Stage 6-5"
-      ],
-      "requires": ""
-    },
-    {
-      "name": "Stage 6-6 - Goal",
-      "region": "Stage 6-6",
-      "category": [
-        "Goal",
-        "Stage 6-6"
-      ],
-      "requires": "|King| AND |Queen|"
-    },
-    {
-      "name": "Stage 6-7 - Goal",
-      "region": "Stage 6-7",
-      "category": [
-        "Goal",
-        "Stage 6-7"
-      ],
-      "requires": "|Fire Dragon| AND |Stage 6-7 Small Key| AND |Stage 6-7 Big Key|"
-    },
-    {
-      "name": "Stage 0-3 - Defeat Fairy Knight",
-      "region": "Stage 0-3",
-      "category": [
-        "Bosses",
-        "Stage 0-3"
-      ],
-      "requires": "",
-      "place_item": [
-        "Fairy Knight Boss Token"
-      ]
-    },
-    {
-      "name": "Stage 1-6 - Defeat Gita",
-      "region": "Stage 1-6",
-      "category": [
-        "Bosses",
-        "Stage 1-6"
-      ],
-      "requires": "",
-      "place_item": [
-        "Gita Boss Token"
-      ]
-    },
-    {
-      "name": "Stage 2-5 - Defeat Cutter",
-      "region": "Stage 2-5",
-      "category": [
-        "Bosses",
-        "Stage 2-5"
-      ],
-      "requires": "",
-      "place_item": [
-        "Cutter Boss Token"
-      ]
-    },
-    {
-      "name": "Stage 3-5 - Defeat Cold Eye",
-      "region": "Stage 3-5",
-      "category": [
-        "Bosses",
-        "Stage 3-5"
-      ],
-      "requires": "",
-      "place_item": [
-        "Cold Eye Boss Token"
-      ]
-    },
-    {
-      "name": "Stage 4-5 - Defeat Terror Eyes",
-      "region": "Stage 4-5",
-      "category": [
-        "Bosses",
-        "Stage 4-5"
-      ],
-      "requires": "",
-      "place_item": [
-        "Terror Eyes Boss Token"
-      ]
-    },
-    {
-      "name": "Stage 6-6 - Defeat Lexer",
-      "region": "Stage 6-6",
-      "victory": false,
-      "category": [
-        "Bosses",
-        "Stage 6-6"
-      ],
-      "requires": "",
-      "place_item": [
-        "Lexer Boss Token"
-      ]
-    },
-    {
-      "name": "Stage 6-8 - Defeat King Hades",
-      "region": "Stage 6-8",
-      "category": [
-        "Bosses",
-        "Stage 6-8"
-      ],
-      "requires": ""
-      ,
-      "place_item": [
-        "King Hades Boss Token"
-      ]
-    },
-    {
-      "name": "Stage 1-3 - Release Earth Spirit",
-      "region": "Stage 1-3",
-      "category": [
-        "Spirits",
-        "Stage 1-3"
-      ],
-      "requires": "|Stage 1-3 Big Key|",
-      "place_item": [
-        "Earth Spirit Token"
-      ]
-    },
-    {
-      "name": "Stage 2-3 - Release Water Spirit",
-      "region": "Stage 2-3",
-      "category": [
-        "Spirits",
-        "Stage 2-3"
-      ],
-      "requires": "|Stage 2-3 Big Key|",
-      "place_item": [
-        "Water Spirit Token"
-      ]
-    },
-    {
-      "name": "Stage 3-3 - Release Fire Spirit",
-      "region": "Stage 3-3",
-      "category": [
-        "Spirits",
-        "Stage 3-3"
-      ],
-      "requires": "|Stage 3-3 Big Key|",
-      "place_item": [
-        "Fire Spirit Token"
-      ]
-    },
-    {
-      "name": "Stage 4-3 - Release Wind Spirit",
-      "region": "Stage 4-3",
-      "category": [
-        "Spirits",
-        "Stage 4-3"
-      ],
-      "requires": "|Stage 4-3 Big Key|",
-      "place_item": [
-        "Wind Spirit Token"
-      ]
-    },
-    {
-      "name": "Stage 1-3 - Obtain Earth Transformation",
-      "region": "Stage 1-3",
-      "category": [
-        "Transformation",
-        "Stage 1-3"
-      ],
-      "requires": "|Earth Spirit Token|"
-    },
-    {
-      "name": "Stage 2-3 - Obtain Water Transformation",
-      "region": "Stage 2-3",
-      "category": [
-        "Transformation",
-        "Stage 2-3"
-      ],
-      "requires": "|Water Spirit Token|"
-    },
-    {
-      "name": "Stage 3-3 - Obtain Fire Transformation",
-      "region": "Stage 3-3",
-      "category": [
-        "Transformation",
-        "Stage 3-3"
-      ],
-      "requires": "|Fire Spirit Token|"
-    },
-    {
-      "name": "Stage 4-3 - Obtain Wind Transformation",
-      "region": "Stage 4-3",
-      "category": [
-        "Transformation",
-        "Stage 4-3"
-      ],
-      "requires": "|Wind Spirit Token|"
-    },
-    {
-      "name": "Stage 0-3 - Obtain Seline",
-      "region": "Stage 0-3",
-      "category": [
-        "Story",
-        "Stage 0-3"
-      ],
-      "requires": "|Fairy Knight Boss Token|"
-    },
-    {
-      "name": "Stage 0-3 - Obtain Magic Card",
-      "region": "Stage 0-3",
-      "category": [
-        "Story",
-        "Stage 0-3"
-      ],
-      "requires": "|Fairy Knight Boss Token|"
-    },
-    {
-      "name": "Stage 5-5 - Obtain Star Crystal",
-      "region": "Stage 5-5",
-      "category": [
-        "Story",
-        "Stage 5-5"
-      ],
-      "requires": ""
-    },
-    {
       "name": "Trading Post - Purchase Magic Card (10 Star Medals)",
       "region": "Trading Post",
       "category": [
@@ -1806,54 +2749,6 @@
         "Trading Post"
       ],
       "requires": "|Star Medal:110|"
-    },
-    {
-      "name": "Stage 1-4 - Trading Post Bonus Game Clerk",
-      "region": "Trading Post",
-      "category": [
-        "Stage 1-4"
-      ],
-      "requires": "(|Unlock Stage 1| OR |Unlock Stage 1-4|) AND |Earth Dragon|"
-    },
-    {
-      "name": "Stage 2-4 - Trading Post Bonus Game Clerk",
-      "region": "Trading Post",
-      "category": [
-        "Stage 2-4"
-      ],
-      "requires": "|Unlock Stage 2| OR |Unlock Stage 2-4|"
-    },
-    {
-      "name": "Stage 3-4 - Trading Post Bonus Game Clerk",
-      "region": "Trading Post",
-      "category": [
-        "Stage 3-4"
-      ],
-      "requires": "(|Unlock Stage 3| OR |Unlock Stage 3-4|) AND |Fire Dragon|"
-    },
-    {
-      "name": "Stage 4-4 - Trading Post Bonus Game Clerk",
-      "region": "Trading Post",
-      "category": [
-        "Stage 4-4"
-      ],
-      "requires": "(|Unlock Stage 1| OR |Unlock Stage 1-4|) AND |Wind Dragon|"
-    },
-    {
-      "name": "Stage 5-4 - Trading Post Bonus Game Clerk",
-      "region": "Trading Post",
-      "category": [
-        "Stage 5-4"
-      ],
-      "requires": "|Unlock Stage 5| OR |Unlock Stage 5-4|"
-    },
-    {
-      "name": "Stage 6-5 - Trading Post Bonus Game Clerk",
-      "region": "Trading Post",
-      "category": [
-        "Stage 6-5"
-      ],
-      "requires": "|Unlock Stage 6| OR |Unlock Stage 6-5|"
     }
   ]
 }
