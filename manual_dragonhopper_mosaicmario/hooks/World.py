@@ -17,7 +17,6 @@ from ..Helpers import is_option_enabled, get_option_value, format_state_prog_ite
 
 # calling logging.info("message") anywhere below in this file will output the message to both console and log file
 import logging
-import random
 
 ########################################################################################
 ## Order of method calls when the world generates:
@@ -83,25 +82,99 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     #
     # Because multiple copies of an item can exist, you need to add an item name
     # to the list multiple times if you want to remove multiple copies of it.
-    random.shuffle(item_pool) # This is stupid but it works, lol.
-    location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == "Reveal Starting Stage")
-    if (get_option_value(multiworld, player, "starting_stage") == 0):
-        item_to_place = next(i for i in item_pool if i.name == "Unlock Stage 0" or i.name == "Unlock Stage 0-1" or i.name == "Unlock Stage 0-2")
-    elif (get_option_value(multiworld, player, "starting_stage") == 1):
-        item_to_place = next(i for i in item_pool if i.name == "Unlock Stage 1" or i.name == "Unlock Stage 1-1" or i.name == "Unlock Stage 1-2" or i.name == "Unlock Stage 1-3" or i.name == "Unlock Stage 1-4" or i.name == "Unlock Stage 1-5")
-    elif (get_option_value(multiworld, player, "starting_stage") == 2):
-        item_to_place = next(i for i in item_pool if i.name == "Unlock Stage 2" or i.name == "Unlock Stage 2-1" or i.name == "Unlock Stage 2-2" or i.name == "Unlock Stage 2-3" or i.name == "Unlock Stage 2-4")
-    elif (get_option_value(multiworld, player, "starting_stage") == 3):
-        item_to_place = next(i for i in item_pool if i.name == "Unlock Stage 3" or i.name == "Unlock Stage 3-1" or i.name == "Unlock Stage 3-2" or i.name == "Unlock Stage 3-3" or i.name == "Unlock Stage 3-4")
-    elif (get_option_value(multiworld, player, "starting_stage") == 4):
-        item_to_place = next(i for i in item_pool if i.name == "Unlock Stage 4" or i.name == "Unlock Stage 4-1" or i.name == "Unlock Stage 4-2" or i.name == "Unlock Stage 4-3")
-    elif (get_option_value(multiworld, player, "starting_stage") == 5):
-        item_to_place = next(i for i in item_pool if i.name == "Unlock Stage 5" or i.name == "Unlock Stage 5-1" or i.name == "Unlock Stage 5-2" or i.name == "Unlock Stage 5-3" or i.name == "Unlock Stage 5-4")
-    elif (get_option_value(multiworld, player, "starting_stage") == 6):
-        item_to_place = next(i for i in item_pool if i.name == "Unlock Stage 6" or i.name == "Unlock Stage 6-1" or i.name == "Unlock Stage 6-2" or i.name == "Unlock Stage 6-3" or i.name == "Unlock Stage 6-4")
 
-    location.place_locked_item(item_to_place)
-    remove_specific_item(item_pool, item_to_place)
+    # GET AND SET STARTING STAGE
+    starting_stages = []
+    if (get_option_value(multiworld, player, "starting_stage") == 0):
+        starting_stages = ["Unlock Stage 0", "Unlock Stage 0-1", "Unlock Stage 0-2"]
+    elif (get_option_value(multiworld, player, "starting_stage") == 1):
+        starting_stages = ["Unlock Stage 1", "Unlock Stage 1-1", "Unlock Stage 1-2", "Unlock Stage 1-3", "Unlock Stage 1-4", "Unlock Stage 1-5"]
+    elif (get_option_value(multiworld, player, "starting_stage") == 2):
+        starting_stages = ["Unlock Stage 2", "Unlock Stage 2-1", "Unlock Stage 2-2", "Unlock Stage 2-3", "Unlock Stage 2-4"]
+    elif (get_option_value(multiworld, player, "starting_stage") == 3):
+        starting_stages = ["Unlock Stage 3", "Unlock Stage 3-1", "Unlock Stage 3-2", "Unlock Stage 3-3", "Unlock Stage 3-4"]
+    elif (get_option_value(multiworld, player, "starting_stage") == 4):
+        starting_stages = ["Unlock Stage 4", "Unlock Stage 4-1", "Unlock Stage 4-2", "Unlock Stage 4-3", "Unlock Stage 4-4"]
+    elif (get_option_value(multiworld, player, "starting_stage") == 5):
+        starting_stages = ["Unlock Stage 5", "Unlock Stage 5-1", "Unlock Stage 5-2", "Unlock Stage 5-3", "Unlock Stage 5-4", "Unlock Stage 5-5"]
+    elif (get_option_value(multiworld, player, "starting_stage") == 6):
+        starting_stages = ["Unlock Stage 6", "Unlock Stage 6-1", "Unlock Stage 6-2", "Unlock Stage 6-3", "Unlock Stage 6-4", "Unlock Stage 6-5", "Unlock Stage 6-7"]
+    else: #failsafe
+        starting_stages = ["Unlock Stage 0", "Unlock Stage 0-1", "Unlock Stage 0-2"]
+
+    starting_stage_items = [
+        item for item in item_pool
+            if item.name in starting_stages
+    ]
+
+    starting_stage_item = world.random.choice(starting_stage_items)
+    multiworld.push_precollected(starting_stage_item)
+    item_pool.remove(starting_stage_item)
+
+    # GET AND SET BOSS MEDALS
+    boss_medal = next(i for i in item_pool if i.name == "Boss Medal")
+    location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == "Stage 0-3 - Goal")
+    if (get_option_value(multiworld, player, "lexer_fight_unlock") == 1): location.place_locked_item(boss_medal)
+    item_pool.remove(boss_medal)
+    boss_medal = next(i for i in item_pool if i.name == "Boss Medal")
+    location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == "Stage 1-6 - Goal")
+    if (get_option_value(multiworld, player, "lexer_fight_unlock") == 1): location.place_locked_item(boss_medal)
+    item_pool.remove(boss_medal)
+    boss_medal = next(i for i in item_pool if i.name == "Boss Medal")
+    location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == "Stage 2-5 - Goal")
+    if (get_option_value(multiworld, player, "lexer_fight_unlock") == 1): location.place_locked_item(boss_medal)
+    item_pool.remove(boss_medal)
+    boss_medal = next(i for i in item_pool if i.name == "Boss Medal")
+    location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == "Stage 3-5 - Goal")
+    if (get_option_value(multiworld, player, "lexer_fight_unlock") == 1): location.place_locked_item(boss_medal)
+    item_pool.remove(boss_medal)
+    boss_medal = next(i for i in item_pool if i.name == "Boss Medal")
+    location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == "Stage 4-5 - Goal")
+    if (get_option_value(multiworld, player, "lexer_fight_unlock") == 1): location.place_locked_item(boss_medal)
+    item_pool.remove(boss_medal)
+
+    # GET AND SET SPIRIT MEDALS
+    spirit_medal = next(i for i in item_pool if i.name == "Spirit Medal")
+    location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == "Stage 1-3 - Obtain Earth Transformation")
+    if (get_option_value(multiworld, player, "lexer_fight_unlock") == 2): location.place_locked_item(spirit_medal)
+    item_pool.remove(spirit_medal)
+    spirit_medal = next(i for i in item_pool if i.name == "Spirit Medal")
+    location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == "Stage 2-3 - Obtain Ice Transformation")
+    if (get_option_value(multiworld, player, "lexer_fight_unlock") == 2): location.place_locked_item(spirit_medal)
+    item_pool.remove(spirit_medal)
+    spirit_medal = next(i for i in item_pool if i.name == "Spirit Medal")
+    location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == "Stage 3-3 - Obtain Fire Transformation")
+    if (get_option_value(multiworld, player, "lexer_fight_unlock") == 2): location.place_locked_item(spirit_medal)
+    item_pool.remove(spirit_medal)
+    spirit_medal = next(i for i in item_pool if i.name == "Spirit Medal")
+    location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == "Stage 4-3 - Obtain Wind Transformation")
+    if (get_option_value(multiworld, player, "lexer_fight_unlock") == 2): location.place_locked_item(spirit_medal)
+    item_pool.remove(spirit_medal)
+
+    #GET AND SET KING AND QUEEN
+    king = next(i for i in item_pool if i.name == "King")
+    location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == "Stage 6-6 - Rescue King")
+    location.place_locked_item(king)
+    item_pool.remove(king)
+    queen = next(i for i in item_pool if i.name == "Queen")
+    location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == "Stage 6-6 - Rescue Queen")
+    location.place_locked_item(queen)
+    item_pool.remove(queen)
+
+    #REMOVE EXCESS FILLER
+    filler_to_remove = 0
+    if (get_option_value(multiworld, player, "stagesanity") == True): filler_to_remove += 30
+    if (get_option_value(multiworld, player, "lexer_fight_unlock") == 1): filler_to_remove += 5
+    if (get_option_value(multiworld, player, "lexer_fight_unlock") == 2): filler_to_remove += 4
+    i = 0
+    while i < filler_to_remove:
+        filler_items = [
+            item for item in item_pool
+                if item.name in ["Heart", "Magic Piece", "Small Heart", "Small Magic Piece"]
+        ]
+        filler_item = world.random.choice(filler_items)
+        item_pool.remove(filler_item)
+        i += 1
 
     return item_pool
 
