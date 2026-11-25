@@ -5,7 +5,7 @@ Dragon Hopper is a top down platform adventure game released on the Virtual Boy 
 This manual uses the "Secret Options" menu, which can be accessed with the following input sequence on the title screen:
 > L-Right, R-Left, L-Up, R-Down, L-Left, R-Right, L-Down, R-Up, Select, Start
 > 
-> "L" means left D-pad, "R" means right D-Pad.  
+> "L" means left D-pad, "R" means right D-Pad.
 
 You will use the stage select options, as well as the all magic toggle as described in the rules section below.
 
@@ -29,6 +29,7 @@ See Stage Options below for more information on stage unlocks.
 The following items can be found for this world:
 - Stage unlocks
 - Star Medals (MacGuffins)
+- Hearts and Magic Pieces (Filler)
 - Small Keys and Big Keys
 - Dragon Transformations
 - Seline and Magic Cards
@@ -38,10 +39,10 @@ The following items can be found for this world:
 The following locations will grant a check in this world:
 - Goaling a stage
 - Collecting Star Medals
+- Picking up Hearts and Magic Pieces
 - Picking up Small Keys and Big Keys
 - Obtaining Dragon Transformations
 - Purchasing Magic Cards for 10 Star Medals each
-- Bonus Game Clerk locations for each Trading Post
 - Other story related locations
 
 ### Rules
@@ -53,11 +54,9 @@ Besides abiding by the "honor system", the following rules apply when playing th
 5. Bonus Stage Medal checks require you to obtain the number of medals in one attempt.
 6. Enable the all magic toggle in the secret options menu to gain access to all magic cards.
 7. You may only use a magic card if you have obtained both Seline and the card item you want to use.
-8. You may use a "One Time Unrestricted Magic Use" item to cast any magic spell, regardless of rule 7.
-9. You may collect all pending Purchase Magic Card checks after talking to the shop keeper at any Trading Post.
-10. Bonus Game Clerk checks require you to find the Trading Post in the corresponding stage and talking to them.
-11. When death link is enabled you must send a death link immediately when you run out of hearts.
-12. When receiving a death link you must return to the title screen immediately and restart the stage.
+8. You may collect all pending Purchase Magic Card checks after talking to the shop keeper at any Trading Post.
+9. When death link is enabled you must send a death link immediately when you run out of hearts.
+10. When receiving a death link you must return to the title screen immediately and restart the stage.
 
 ## Stage Options
 The following options can be set in your player options to alter stage unlocks:
@@ -69,11 +68,22 @@ Stagesanity changes how stages are unlocked. This option is disabled by default.
 
 ### Starting Stage
 Choose which stage you want to start with. The starting stage is Stage 0 by default.
-- Multiple stages can be enabled through weighted options, a random one will be chosen at generation.
-- If Stagesanity is enabled you will start with a random substage from the chosen stage.
-- The random substage cannot be a boss stage or a stage requiring progression items.
+- Multiple stages can be enabled through weighted options, a random one will be chosen.
+- If Stagesanity is enabled you will start with a random substage from the chosen stage. The random substage cannot be a boss stage.
+
+## Logic Options
+The following options cen be set in your player options to alter logic of a few checks:
+
+### Stage 3-3 Earth Dragon
+Sets whether or not the Earth Dragon is required to reach the Big Key pickup in Stage 3-3:
+- True: The Earth Dragon is required to break through the floor to reach the teleporter platform (default).
+- False: The player may need to flap towards the teleporter platform without the Earth Dragon transformation.
+
+### Stage 4 Thawed Jump Pads
+Sets whether or not the Star Medals hidden underneath clouds require the fire dragon to collect.
+- True: The Fire Dragon is not required to collect these Star Medals. The player may temporarily transform into the Fire Dragon to thaw the jump pad to get out.
+- False: The Fire Dragon is required to thaw the jump pads to collect the Star Medals. Alternatively the player may use Seline + Flashback card to get out (default).
 
 ## Notes and considerations
 - Due to this games linear structure, you cannot bring transformations from later stages into earlier ones. Because of this, stages with new transformations will require you to have its big key alongside the transformation itself in order to progress further.
-- Two Star Medals in Stage 4 are hidden underneath clouds with small holes to fall through. Fire Dragon is required for these because the jump pad needs to be thawed in order to get back out. You can also use Flashback with Seline for these two checks.
-- In Stage 3-3 you can reach the platform with the teleporter to the Big Key room by jumping off the platform above and flapping underneath it. This jump is a little tricky, but doable.
+
