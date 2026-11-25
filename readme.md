@@ -54,7 +54,7 @@ Besides abiding by the "honor system", the following rules apply when playing th
 5. Bonus Stage Medal checks require you to obtain the number of medals in one attempt.
 6. Enable the all magic toggle in the secret options menu to gain access to all magic cards.
 7. You may only use a magic card if you have obtained both Seline and the card item you want to use.
-8. You may collect all pending Purchase Magic Card checks after talking to the shop keeper at any Trading Post.
+8. You may collect all pending Magic Card checks after talking to the shop keeper at any Trading Post.
 9. When death link is enabled you must send a death link immediately when you run out of hearts.
 10. When receiving a death link you must return to the title screen immediately and restart the stage.
 
@@ -77,7 +77,7 @@ The following options cen be set in your player options to alter logic of a few 
 ### Stage 3-3 Earth Dragon
 Sets whether or not the Earth Dragon is required to reach the Big Key pickup in Stage 3-3:
 - True: The Earth Dragon is required to break through the floor to reach the teleporter platform (default).
-- False: The player may need to flap towards the teleporter platform without the Earth Dragon transformation.
+- False: The player may need to flap towards the teleporter platform without the Earth Dragon.
 
 ### Stage 4 Thawed Jump Pads
 Sets whether or not the Star Medals hidden underneath clouds require the fire dragon to collect.
