@@ -5,7 +5,7 @@
       "count": 1,
       "name": "Star Crystal",
       "category": [
-        "Key Items"
+        "The Star Crystal"
       ],
       "progression_skip_balancing": true
     },
@@ -13,7 +13,7 @@
       "count": 1,
       "name": "King",
       "category": [
-        "Key Items"
+        "King And Queen"
       ],
       "progression_skip_balancing": true
     },
@@ -21,7 +21,7 @@
       "count": 1,
       "name": "Queen",
       "category": [
-        "Key Items"
+        "King And Queen"
       ],
       "progression_skip_balancing": true
     },
@@ -465,7 +465,7 @@
       "count": 1,
       "name": "Stage 1-1 Small Key",
       "category": [
-        "Stage 1-1 Keys"
+        "Keys"
       ],
       "progression": true
     },
@@ -473,7 +473,7 @@
       "count": 1,
       "name": "Stage 1-2 Small Key",
       "category": [
-        "Stage 1-2 Keys"
+        "Keys"
       ],
       "progression": true
     },
@@ -481,7 +481,7 @@
       "count": 1,
       "name": "Stage 1-5 Small Key",
       "category": [
-        "Stage 1-5 Keys"
+        "Keys"
       ],
       "progression": true
     },
@@ -489,7 +489,7 @@
       "count": 1,
       "name": "Stage 1-3 Big Key",
       "category": [
-        "Stage 1-3 Keys"
+        "Keys"
       ],
       "progression": true
     },
@@ -497,7 +497,7 @@
       "count": "2",
       "name": "Stage 3-1 Small Key",
       "category": [
-        "Stage 3-1 Keys"
+        "Keys"
       ],
       "progression": true
     },
@@ -505,7 +505,7 @@
       "count": 1,
       "name": "Stage 3-3 Small Key",
       "category": [
-        "Stage 3-3 Keys"
+        "Keys"
       ],
       "progression": true
     },
@@ -513,7 +513,7 @@
       "count": 1,
       "name": "Stage 4-2 Small Key",
       "category": [
-        "Stage 4-2 Keys"
+        "Keys"
       ],
       "progression": true
     },
@@ -521,7 +521,7 @@
       "count": "2",
       "name": "Stage 5-3 Small Key",
       "category": [
-        "Stage 5-3 Keys"
+        "Keys"
       ],
       "progression": true
     },
@@ -529,7 +529,7 @@
       "count": "2",
       "name": "Stage 6-3 Small Key",
       "category": [
-        "Stage 6-3 Keys"
+        "Keys"
       ],
       "progression": true
     },
@@ -537,7 +537,7 @@
       "count": 2,
       "name": "Stage 6-4 Small Key",
       "category": [
-        "Stage 6-4 Keys"
+        "Keys"
       ],
       "progression": true
     },
@@ -545,7 +545,7 @@
       "count": 1,
       "name": "Stage 6-7 Small Key",
       "category": [
-        "Stage 6-7 Keys"
+        "Keys"
       ],
       "progression": true
     },
@@ -553,7 +553,7 @@
       "count": 1,
       "name": "Stage 2-3 Big Key",
       "category": [
-        "Stage 2-3 Keys"
+        "Keys"
       ],
       "progression": true
     },
@@ -561,7 +561,7 @@
       "count": 1,
       "name": "Stage 3-3 Big Key",
       "category": [
-        "Stage 3-3 Keys"
+        "Keys"
       ],
       "progression": true
     },
@@ -569,7 +569,7 @@
       "count": 1,
       "name": "Stage 4-3 Big Key",
       "category": [
-        "Stage 4-3 Keys"
+        "Keys"
       ],
       "progression": true
     },
@@ -577,7 +577,7 @@
       "count": 1,
       "name": "Stage 6-7 Big Key",
       "category": [
-        "Stage 6-7 Keys"
+        "Keys"
       ],
       "progression": true
     },

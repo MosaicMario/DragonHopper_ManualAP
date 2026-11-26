@@ -56,7 +56,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 0-2 - Star Medal Before Chasm",
+      "name": "Stage 0-2 - Star Medal Before Pit",
       "region": "Stage 0-2",
       "category": [
         "Star Medal",
@@ -65,7 +65,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 0-2 - Star Medal After Chasm",
+      "name": "Stage 0-2 - Star Medal After Pit",
       "region": "Stage 0-2",
       "category": [
         "Star Medal",
@@ -147,7 +147,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 1-1 - Star Medal On South Platform",
+      "name": "Stage 1-1 - Star Medal South Of Goal",
       "region": "Stage 1-1",
       "category": [
         "Star Medal",
@@ -580,7 +580,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 2-2 - Heart At Top Right Part Of River",
+      "name": "Stage 2-2 - Heart At River Top Right",
       "region": "Stage 2-2",
       "category": [
         "Pickup",
@@ -589,7 +589,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 2-2 - Magic Piece At Bottom Right Part Of River",
+      "name": "Stage 2-2 - Magic Piece At River Bottom Right",
       "region": "Stage 2-2",
       "category": [
         "Pickup",
@@ -724,7 +724,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 2-4 - Magic Piece Along Bottom Path",
+      "name": "Stage 2-4 - Magic Piece South Of Elevator Button",
       "region": "Stage 2-4",
       "category": [
         "Pickup",
@@ -742,7 +742,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 2-4 - Magic Piece On Vanishing Path",
+      "name": "Stage 2-4 - Magic Piece On Top Path Vanishing Platforms",
       "region": "Stage 2-4",
       "category": [
         "Pickup",
@@ -815,7 +815,7 @@
       "requires": "|Stage 3-1 Small Key:1|"
     },
     {
-      "name": "Stage 3-1 - Heart Near Start",
+      "name": "Stage 3-1 - Heart Above Start",
       "region": "Stage 3-1",
       "category": [
         "Pickup",
@@ -941,7 +941,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 3-3 - Star Medal Near Start",
+      "name": "Stage 3-3 - Star Along Bridge At Start",
       "region": "Stage 3-3",
       "category": [
         "Star Medal",
@@ -959,7 +959,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 3-3 - Star Medal Frozen After Elevator",
+      "name": "Stage 3-3 - Star Medal Left Side After Elevator",
       "region": "Stage 3-3",
       "category": [
       "Star Medal",
@@ -977,7 +977,7 @@
       "requires": "|Stage 3-3 Big Key| AND |Fire Dragon| AND |Stage 3-3 Small Key| AND (|Earth Dragon| OR {YamlDisabled(stage3_earthdragon)})"
     },
     {
-      "name": "Stage 3-3 - Heart Below Below Frozen Button",
+      "name": "Stage 3-3 - Heart Below Frozen Button",
       "region": "Stage 3-3",
       "category": [
         "Pickup",
@@ -1013,7 +1013,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 3-3 - Magic Piece Above Frozen Button",
+      "name": "Stage 3-3 - Magic Piece North After Elevator",
       "region": "Stage 3-3",
       "category": [
       "Pickup",
@@ -1085,7 +1085,7 @@
       "requires": "|Fire Dragon|"
     },
     {
-      "name": "Stage 3-4 - Heart North Platform After Jump Pad",
+      "name": "Stage 3-4 - Heart North After Frozen Jump Pad",
       "region": "Stage 3-4",
       "category": [
         "Pickup",
@@ -1112,7 +1112,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 3-4 - Magic Piece East Platform After Jump Pad",
+      "name": "Stage 3-4 - Magic Piece East After Frozen Jump Pad",
       "region": "Stage 3-4",
       "category": [
         "Pickup",
@@ -1121,7 +1121,7 @@
       "requires": "|Fire Dragon|"
     },
     {
-      "name": "Stage 3-4 - Magic Piece West Platform After Jump Pad",
+      "name": "Stage 3-4 - Magic Piece West After Frozen Jump Pad",
       "region": "Stage 3-4",
       "category": [
         "Pickup",
@@ -1194,7 +1194,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 4-1 - Star Medal Along Main Path",
+      "name": "Stage 4-1 - Star Medal South Along Main Path",
       "region": "Stage 4-1",
       "category": [
         "Star Medal",
@@ -1275,7 +1275,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 4-2 - Star Medal Left Side On Cloud",
+      "name": "Stage 4-2 - Star Medal Left Side Near Keyhole On Cloud",
       "region": "Stage 4-2",
       "category": [
         "Star Medal",
@@ -1284,7 +1284,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 4-2 - Star Medal Right Side Underneath Small Hole",
+      "name": "Stage 4-2 - Star Medal Right Side Near Keyhole In Small Hole",
       "region": "Stage 4-2",
       "category": [
         "Star Medal",
@@ -1302,7 +1302,7 @@
       "requires": "|Stage 4-2 Small Key|"
     },
     {
-      "name": "Stage 4-2 - Heart Right Side After Cloud Elevator",
+      "name": "Stage 4-2 - Heart Right Side After Elevator",
       "region": "Stage 4-2",
       "category": [
         "Pickup",
@@ -1320,7 +1320,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 4-2 - Magic Piece Right Side On Cloud",
+      "name": "Stage 4-2 - Magic Piece Right Side Near Keyhole On Cloud",
       "region": "Stage 4-2",
       "category": [
         "Pickup",
@@ -1374,7 +1374,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 4-3 - Star Medal Above Tornado Cloud",
+      "name": "Stage 4-3 - Star Medal On Left Tornado Cloud Platform",
       "region": "Stage 4-3",
       "category": [
       "Star Medal",
@@ -1401,7 +1401,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 4-3 - Magic Piece Above Tornado Cloud",
+      "name": "Stage 4-3 - Magic Piece On Right Tornado Cloud Platform",
       "region": "Stage 4-3",
       "category": [
       "Pickup",
@@ -1446,7 +1446,7 @@
       "requires": "|Wind Dragon|"
     },
     {
-      "name": "Stage 4-4 - Star Medal Underneath Cloud With Small Hole",
+      "name": "Stage 4-4 - Star Medal In Small Hole",
       "region": "Stage 4-4",
       "category": [
         "Star Medal",
@@ -1455,7 +1455,7 @@
       "requires": "|Wind Dragon| AND (|Fire Dragon| OR (|Seline| AND |Flashback Card|) OR {YamlEnabled(stage4_thawedjumppads)})"
     },
     {
-      "name": "Stage 4-4 - Heart Near Start",
+      "name": "Stage 4-4 - Heart North Of Start",
       "region": "Stage 4-4",
       "category": [
         "Pickup",
@@ -1482,7 +1482,7 @@
       "requires": "|Wind Dragon|"
     },
     {
-      "name": "Stage 4-4 - Magic Piece Near Goal",
+      "name": "Stage 4-4 - Magic Piece South Of Goal",
       "region": "Stage 4-4",
       "category": [
         "Pickup",
@@ -1528,7 +1528,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 5-1 - Star Medal Left Of Moving Star Platform",
+      "name": "Stage 5-1 - Star Medal Left Of Moving Star Platforms",
       "region": "Stage 5-1",
       "category": [
         "Star Medal",
@@ -1591,7 +1591,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 5-1 - Magic Piece Right Of Moving Star Platform",
+      "name": "Stage 5-1 - Magic Piece Right Of Moving Star Platforms",
       "region": "Stage 5-1",
       "category": [
         "Pickup",
@@ -1600,7 +1600,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 5-1 - Magic Piece Right Of Goal",
+      "name": "Stage 5-1 - Magic Piece Right Side Near Goal",
       "region": "Stage 5-1",
       "category": [
         "Pickup",
@@ -1672,7 +1672,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 5-3 - Star Medal Left Of Small Moving Star Platforms",
+      "name": "Stage 5-3 - Star Medal Along Path After Second Keyhole",
       "region": "Stage 5-3",
       "category": [
         "Star Medal",
@@ -1681,7 +1681,7 @@
       "requires": "|Stage 5-3 Small Key:2|"
     },
     {
-      "name": "Stage 5-3 - Star Medal Above Big Moving Star Platforms",
+      "name": "Stage 5-3 - Star Medal South Of Goal",
       "region": "Stage 5-3",
       "category": [
         "Star Medal",
@@ -1690,7 +1690,7 @@
       "requires": "|Stage 5-3 Small Key:2|"
     },
     {
-      "name": "Stage 5-3 - Star Medal Above Platform Before Big Moving Star Platforms",
+      "name": "Stage 5-3 - Star Medal East Of Goal",
       "region": "Stage 5-3",
       "category": [
         "Star Medal",
@@ -1708,7 +1708,7 @@
       "requires": "|Stage 5-3 Small Key:1|"
     },
     {
-      "name": "Stage 5-3 - Magic Piece Near Goal",
+      "name": "Stage 5-3 - Magic Piece West Of Goal",
       "region": "Stage 5-3",
       "category": [
         "Pickup",
@@ -1744,7 +1744,7 @@
       "requires": "|Stage 5-3 Small Key:2|"
     },
     {
-      "name": "Stage 5-4 - Star Medal On Vanishing Path Near Start",
+      "name": "Stage 5-4 - Star Medal Along Vanishing Path",
       "region": "Stage 5-4",
       "category": [
         "Star Medal",
@@ -1780,7 +1780,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 5-4 - Magic Piece Right Side After Vanishing Path",
+      "name": "Stage 5-4 - Magic Piece Along Small Platforms",
       "region": "Stage 5-4",
       "category": [
         "Pickup",
@@ -1798,7 +1798,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 5-5 - Star Medal Above Right Side",
+      "name": "Stage 5-5 - Star Medal",
       "region": "Stage 5-5",
       "category": [
         "Star Medal",
@@ -1987,7 +1987,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 6-2 - Star Medal Before Moving Platforms Towards Goal #1",
+      "name": "Stage 6-2 - Star Medal North Of Moving Platforms Towards Goal #1",
       "region": "Stage 6-2",
       "category": [
         "Star Medal",
@@ -1996,7 +1996,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 6-2 - Star Medal Before Moving Platforms Towards Goal #2",
+      "name": "Stage 6-2 - Star Medal North Of Moving Platforms Towards Goal #2",
       "region": "Stage 6-2",
       "category": [
         "Star Medal",
@@ -2005,7 +2005,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 6-2 - Star Medal Before Moving Platforms Towards Goal #3",
+      "name": "Stage 6-2 - Star Medal North Of Moving Platforms Towards Goal #3",
       "region": "Stage 6-2",
       "category": [
         "Star Medal",
@@ -2014,7 +2014,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 6-2 - Magic Piece Before Vanishing Platforms",
+      "name": "Stage 6-2 - Magic Piece South Of Second Vanishing Platforms",
       "region": "Stage 6-2",
       "category": [
         "Pickup",
@@ -2032,7 +2032,7 @@
       "requires": ""
     },
     {
-      "name": "Stage 6-3 - Star Medal Near Keyhole",
+      "name": "Stage 6-3 - Star Medal Left Of First Keyhole",
       "region": "Stage 6-3",
       "category": [
         "Star Medal",
@@ -2047,10 +2047,10 @@
         "Star Medal",
         "Stage 6-3"
       ],
-      "requires": "|Stage 6-3 Small Key|"
+      "requires": "|Stage 6-3 Small Key:1|"
     },
     {
-      "name": "Stage 6-3 - Star Medal Top Left Corner At Rotating Platforms",
+      "name": "Stage 6-3 - Star Medal Top Left Corner At Clock Hand Platforms",
       "region": "Stage 6-3",
       "category": [
         "Star Medal",
@@ -2059,7 +2059,7 @@
       "requires": "|Stage 6-3 Small Key:1|"
     },
     {
-      "name": "Stage 6-3 - Heart Top Right Corner At Rotating Platforms",
+      "name": "Stage 6-3 - Heart Top Right Corner At Clock Hand Platforms",
       "region": "Stage 6-3",
       "category": [
         "Pickup",
@@ -2068,7 +2068,7 @@
       "requires": "|Stage 6-3 Small Key:1|"
     },
     {
-      "name": "Stage 6-3 - Heart Bottom Left Corner At Rotating Platforms",
+      "name": "Stage 6-3 - Heart Bottom Left Corner At Clock Hand Platforms",
       "region": "Stage 6-3",
       "category": [
         "Pickup",
@@ -2083,10 +2083,10 @@
         "Pickup",
         "Stage 6-3"
       ],
-      "requires": "|Stage 6-3 Small Key|"
+      "requires": "|Stage 6-3 Small Key:1|"
     },
     {
-      "name": "Stage 6-3 - Magic Piece Bottom Right Corner At Rotating Platforms",
+      "name": "Stage 6-3 - Magic Piece Bottom Right Corner At Clock Hand Platforms",
       "region": "Stage 6-3",
       "category": [
         "Pickup",
@@ -2158,7 +2158,7 @@
       "requires": "|Stage 6-4 Small Key:1|"
     },
     {
-      "name": "Stage 6-4 - Magic Piece At Start Of Maze",
+      "name": "Stage 6-4 - Magic Piece Near Start Of Maze",
       "region": "Stage 6-4",
       "category": [
         "Pickup",
