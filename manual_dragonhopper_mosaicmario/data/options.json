@@ -51,7 +51,7 @@
             "default": 3,
             "range_end": 4,
             "group": "Game Options"
-        }
+        },
         "stagesanity":{
             "description": [
                 "Every substage will have its own unlock item. Additionally, you will need to find Unlock",
@@ -101,6 +101,6 @@
             "type": "Toggle",
             "default": false,
             "group": "Logic Options"
-        },
+        }
     }
 }
