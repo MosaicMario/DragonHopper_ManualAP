@@ -7,22 +7,19 @@
         "hidden": true,
         "yaml_option": ["stagesanity"]
     },
-    "Transformation": {
-        "hidden": true
-    },
     "Star Medal": {
         "hidden": true
     },
-    "Big Key": {
+    "Pickup": {
         "hidden": true
     },
-    "Small Key": {
+    "Key": {
+        "hidden": true
+    },
+    "Other": {
         "hidden": true
     },
     "Goal": {
-        "hidden": true
-    },
-    "Story": {
         "hidden": true
     }
 }

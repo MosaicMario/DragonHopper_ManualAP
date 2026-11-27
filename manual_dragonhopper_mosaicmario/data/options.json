@@ -1,34 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
     "user": {
-        "stagesanity":{
-            "description": [
-                "Every substage will have its own unlock item. Additionally, you will need to find Unlock",
-                "Stage 6-6 and Unlock Stage 6-8 to be able to fight Lexer and King Hades respectively."
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Stage Options"
-        },
-        "starting_stage": {
-            "display_name": "Starting Stage",
-            "description": [
-                "Choose a stage as a starting area.",
-                "A random substage of the chosen stage will be picked as the starting area when Stagesanity is enabled.",
-                "Boss stages and stages that can't progress without a progression item are excluded from the substage pool."
-            ],
-            "type": "Choice",
-            "values": {
-                "Stage0": 0,
-                "Stage1": 1,
-                "Stage2": 2,
-                "Stage3": 3,
-                "Stage4": 4,
-                "Stage5": 5,
-                "Stage6": 6
-            },
-            "group": "Stage Options"
-        },
         "lexer_fight_unlock":{
             "display_name": "Lexer Fight Unlock",
             "type": "Choice",
@@ -79,7 +51,56 @@
             "default": 3,
             "range_end": 4,
             "group": "Game Options"
+        },
+        "stagesanity":{
+            "description": [
+                "Every substage will have its own unlock item. Additionally, you will need to find Unlock",
+                "Stage 6-6 and Unlock Stage 6-8 to be able to fight Lexer and King Hades respectively."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Stage Options"
+        },
+        "starting_stage": {
+            "display_name": "Starting Stage",
+            "description": [
+                "Choose a stage as a starting area. A corresponding stage unlock item will be placed in your starting inventory.",
+                "A random substage of the chosen stage will be picked as the starting area when Stagesanity is enabled.",
+                "Boss stages are excluded from the starting substage pool."
+            ],
+            "type": "Choice",
+            "values": {
+                "Stage0": 0,
+                "Stage1": 1,
+                "Stage2": 2,
+                "Stage3": 3,
+                "Stage4": 4,
+                "Stage5": 5,
+                "Stage6": 6
+            },
+            "group": "Stage Options"
+        },
+        "stage3_earthdragon":{
+            "display_name": "Stage 3-3 Earth Dragon",
+            "description": [
+                "Sets whether or not the Earth Dragon is required for the Big Key location in Stage 3-3",
+                "If disabled the player may be required to flap towards the platform with the teleporter."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Logic Options"
+        },
+        "stage4_thawedjumppads":{
+            "display_name": "Stage 4 Thawed Jump Pads",
+            "description": [
+                "Sets whether or not the Fire Dragon is required for the Star Medals hidden below clouds in Stages 4-2 and 4-4.",
+                "If enabled the Star Medals will require the player to be able to get out of their holes to collect, be it",
+                "by thawing the jump pad using the Fire Dragon transformation, or by using the Flashback card with Seline.",
+                "If disabled, then the player may collect the Star Medals and temporarily use the Fire Dragon to get out."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Logic Options"
         }
     }
-
 }
